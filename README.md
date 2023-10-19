@@ -68,5 +68,3 @@ Ryo Kusnadi</a></h1>
 </p>
 
 ---
-
-Credit: [Ryo Kusnadi](https://github.com/ryokusnadi)
