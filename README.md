@@ -65,7 +65,7 @@ Ryo Kusnadi</a></h1>
         <atarget="_blank" href="https://github.com/RyoKusnadi">
 		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></atarget=>
 		 <a target="_blank" href="https://medium.com/@ryokusnadi_20">
-		<img src="https://img.icons8.com/40/ffffff/medium-logo.png"></a>
+		<img src="https://img.icons8.com/40/000000/medium-logo.png"></a>
 </div>
 </p>
 
