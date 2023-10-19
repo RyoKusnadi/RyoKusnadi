@@ -66,5 +66,3 @@ Ryo Kusnadi</a></h1>
 		<img src="https://img.icons8.com/40/000000/medium-logo.png"></a>
 </div>
 </p>
-
----
