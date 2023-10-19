@@ -51,11 +51,9 @@ Ryo Kusnadi</a></h1>
 
 <h3 align="center"><strong>My Stats</strong></h3>
 <div align="center"> 
-<a href="https://git.io/streak-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=RyoKusnadi&amp;theme=github-dark-blue&amp;hide_border=true" alt="GitHub Streak"></a>
-
-<a href="https://github.com/RyoKusnadi">
-  <img src="https://github-readme-stats.vercel.app/api?username=RyoKusnadi&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515&theme=dark" /></a>
-  </div>
+  <a href="https://github.com/RyoKusnadi">
+    <img src="https://github-readme-stats.vercel.app/api?username=RyoKusnadi&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515&theme=dark" /></a>
+</div>
 
 <h3 align="center" > Connect With Me</h3>
 <p align="center">
