@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RyoKusnadi&label=Profile%20views&color=34abeb&style=flat-square" alt="Profile views" />
   <a href="https://github.com/RyoKusnadi?tab=followers"><img src="https://img.shields.io/github/followers/RyoKusnadi?label=Followers&style=flat-square&labelColor=343b41" alt="Followers" /></a>
 </p>
 
@@ -28,7 +27,7 @@
 
 <br/>
 
-### Tech Stack
+<h3 align="center"><strong>Tech Stack</strong></h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=go,python,ts,js,nextjs,react,tailwind,docker,git,gitlab" alt="Tech stack icons" />
@@ -36,7 +35,7 @@
 
 <br>
 
-### Recent Posts
+<h3 align="center"><strong>Recent Posts</strong></h3>
 
 - [Structured Logging In Go 1.21](https://levelup.gitconnected.com/structured-logging-in-go-1-21-b6713265787)
 - [Deep Dive To 'Request — Response'](https://levelup.gitconnected.com/deep-dive-to-request-response-91404b5af0e8)
