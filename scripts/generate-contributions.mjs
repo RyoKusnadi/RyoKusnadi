@@ -29,8 +29,8 @@ async function ghApi(path) {
   return res.json();
 }
 
-async function findContributedRepos() {
-  const repos = new Set();
+async function findContributedPRs() {
+  const prsByRepo = new Map();
   let page = 1;
   for (;;) {
     const query = `author:${USERNAME} type:pr is:merged`;
@@ -39,22 +39,29 @@ async function findContributedRepos() {
     );
     for (const item of data.items) {
       const repo = item.repository_url.replace("https://api.github.com/repos/", "");
-      if (!repo.startsWith(`${USERNAME}/`)) repos.add(repo);
+      if (repo.startsWith(`${USERNAME}/`)) continue;
+      if (!prsByRepo.has(repo)) prsByRepo.set(repo, []);
+      prsByRepo.get(repo).push({ number: item.number, url: item.html_url });
     }
     if (data.items.length < 100) break;
     page += 1;
   }
-  return [...repos];
+  return prsByRepo;
 }
 
-function renderRow(nameWithOwner) {
+function renderRow(nameWithOwner, prs) {
   const [, repo] = nameWithOwner.split("/");
+  const prLinks = prs
+    .sort((a, b) => a.number - b.number)
+    .map((pr) => `<a href="${pr.url}">#${pr.number}</a>`)
+    .join(", ");
   return `    <tr>
       <td><a href="https://github.com/${nameWithOwner}"><b>${repo}</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
+      <td>${prLinks}</td>
       <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>`;
 }
