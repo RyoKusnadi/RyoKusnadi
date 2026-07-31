@@ -39,10 +39,12 @@
 
 <h3 align="center"><strong>My Writings</strong></h3>
 
+<!-- MY-WRITINGS:START -->
 - [A Simple Guide to Model Context Protocol for Software Engineers](https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200)
 - [Structured Logging In Go 1.21](https://levelup.gitconnected.com/structured-logging-in-go-1-21-b6713265787)
 - [How To Implement Harness Engineering](https://levelup.gitconnected.com/how-to-implement-harness-engineering-fe70c558bb7f)
-- [Agentic AI Security: How Well Do You Know About It](https://levelup.gitconnected.com/agentic-ai-security-how-well-do-you-know-about-it-db877cab3312)
+- [Agentic AI Security: How Well Do You Know About It…](https://levelup.gitconnected.com/agentic-ai-security-how-well-do-you-know-about-it-db877cab3312)
+<!-- MY-WRITINGS:END -->
 
 <br>
 
