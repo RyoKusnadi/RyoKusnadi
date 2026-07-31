@@ -46,6 +46,7 @@
 <br>
 
 <h3 align="center"><strong>Open Source Contribution</strong></h3>
+<!-- OSS-CONTRIBUTIONS:START -->
 <table align="center">
   <thead align="center">
     <tr>
@@ -59,23 +60,32 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/daixiang0/gci"><b>gci</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Maintainer" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/labstack/echo"><b>echo</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/labstack/echo?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/labstack/echo?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/labstack/echo?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/labstack/echo?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Maintainer" src="https://img.shields.io/badge/role-Contributor-green"/></td>
+      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/modelcontextprotocol/go-sdk"><b>go-sdk</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/daixiang0/gci"><b>gci</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>
   </tbody>
 </table>
+<!-- OSS-CONTRIBUTIONS:END -->
 
 <br>
 
