@@ -10,7 +10,7 @@ const FEED_URL = "https://medium.com/feed/@ryo.kusnadi";
 const README_PATH = new URL("../README.md", import.meta.url);
 const START_MARKER = "<!-- MY-WRITINGS:START -->";
 const END_MARKER = "<!-- MY-WRITINGS:END -->";
-const MAX_POSTS = 4;
+const MAX_POSTS = 5;
 
 // Curated highlights, shown first regardless of publish date.
 const PINNED_POST_URLS = [
