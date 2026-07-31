@@ -79,15 +79,6 @@
 
 <br>
 
-<h3 align="center"><strong>My Stats</strong></h3>
-<div align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" />
-</div>
-
-<p align="center"><sub>Stats are generated on a daily schedule by <a href="./.github/workflows/metrics.yml">a GitHub Actions workflow</a> using <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> — no dependency on the third-party Vercel widget, so it won't silently break again.</sub></p>
-
-<br>
-
 <h3 align="center"><strong>🏆 GitHub Achievements</strong></h3>
 <div align="center">
   <img src="./trophy.svg" alt="GitHub Trophies" />
