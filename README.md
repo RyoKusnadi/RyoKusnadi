@@ -18,7 +18,6 @@
 - 📝 I regularly write articles on [Level Up Coding](https://levelup.gitconnected.com)
 - 💬 Ask me about **Go & Python**
 - 📫 How to reach me **ryokusnadi@gmail.com**
-- 📄 Know about my experience: [Resume](https://raw.githubusercontent.com/RyoKusnadi/RyoKusnadi/master/Resume.pdf)
 
 </td>
 <td width="40%">
