@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Regenerates the "Open Source Contribution" table in README.md from real
-// merged pull requests, instead of a hand-maintained list of repos.
+// pull requests (merged or still open), instead of a hand-maintained list
+// of repos.
 
 import fs from "node:fs";
 
@@ -29,22 +30,34 @@ async function ghApi(path) {
   return res.json();
 }
 
-async function findContributedPRs() {
-  const prsByRepo = new Map();
+async function searchPRs(state) {
+  const items = [];
   let page = 1;
   for (;;) {
-    const query = `author:${USERNAME} type:pr is:merged`;
+    const query = `author:${USERNAME} type:pr is:${state}`;
     const data = await ghApi(
       `/search/issues?q=${encodeURIComponent(query)}&per_page=100&page=${page}`,
     );
-    for (const item of data.items) {
+    items.push(...data.items);
+    if (data.items.length < 100) break;
+    page += 1;
+  }
+  return items;
+}
+
+async function findContributedPRs() {
+  // "merged" + "open" covers real/active contributions; closed-and-unmerged
+  // (rejected/abandoned) PRs are intentionally left out.
+  const [merged, open] = await Promise.all([searchPRs("merged"), searchPRs("open")]);
+
+  const prsByRepo = new Map();
+  for (const [items, isMerged] of [[merged, true], [open, false]]) {
+    for (const item of items) {
       const repo = item.repository_url.replace("https://api.github.com/repos/", "");
       if (repo.startsWith(`${USERNAME}/`)) continue;
       if (!prsByRepo.has(repo)) prsByRepo.set(repo, []);
-      prsByRepo.get(repo).push({ number: item.number, url: item.html_url });
+      prsByRepo.get(repo).push({ number: item.number, url: item.html_url, merged: isMerged });
     }
-    if (data.items.length < 100) break;
-    page += 1;
   }
   return prsByRepo;
 }
@@ -53,7 +66,7 @@ function renderRow(nameWithOwner, prs) {
   const [, repo] = nameWithOwner.split("/");
   const prLinks = prs
     .sort((a, b) => a.number - b.number)
-    .map((pr) => `<a href="${pr.url}">#${pr.number}</a>`)
+    .map((pr) => `<a href="${pr.url}">#${pr.number}</a>${pr.merged ? "" : " (open)"}`)
     .join(", ");
   return `    <tr>
       <td><a href="https://github.com/${nameWithOwner}"><b>${repo}</b></a></td>
@@ -96,7 +109,7 @@ async function main() {
 ${rows}
   </tbody>
 </table>`
-    : `<p align="center"><sub>No merged pull requests to external repositories yet.</sub></p>`;
+    : `<p align="center"><sub>No pull requests to external repositories yet.</sub></p>`;
 
   const readme = fs.readFileSync(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
