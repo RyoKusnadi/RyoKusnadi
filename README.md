@@ -9,15 +9,22 @@
   <a href="https://github.com/RyoKusnadi?tab=followers"><img src="https://img.shields.io/github/followers/RyoKusnadi?label=Followers&style=flat-square&labelColor=343b41" alt="Followers" /></a>
 </p>
 
-<a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
-</a>
+<table>
+<tr>
+<td valign="top" width="60%">
 
 - 🔭 I'm currently working in E-commerce as a Backend Engineer
 - 📝 I regularly write articles on [Level Up Coding](https://levelup.gitconnected.com)
 - 💬 Ask me about **Go & Python**
 - 📫 How to reach me **ryokusnadi@gmail.com**
 - 📄 Know about my experience: <a href="https://ryokusnadi.com/static/media/Ryo%20Kusnadi%20-%20CV.2da393752af8e3ddff54.pdf" target="_blank">Resume</a>
+
+</td>
+<td width="40%">
+  <img width="100%" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+</td>
+</tr>
+</table>
 
 <br/>
 
