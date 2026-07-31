@@ -37,11 +37,12 @@
 
 <br>
 
-<h3 align="center"><strong>Recent Posts</strong></h3>
+<h3 align="center"><strong>My Writings</strong></h3>
 
+- [A Simple Guide to Model Context Protocol for Software Engineers](https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200)
 - [Structured Logging In Go 1.21](https://levelup.gitconnected.com/structured-logging-in-go-1-21-b6713265787)
-- [Deep Dive To 'Request — Response'](https://levelup.gitconnected.com/deep-dive-to-request-response-91404b5af0e8)
-- [Introduction to Kafka In Go](https://levelup.gitconnected.com/introduction-to-kafka-in-go-2a5755df504c)
+- [How To Implement Harness Engineering](https://levelup.gitconnected.com/how-to-implement-harness-engineering-fe70c558bb7f)
+- [Agentic AI Security: How Well Do You Know About It](https://levelup.gitconnected.com/agentic-ai-security-how-well-do-you-know-about-it-db877cab3312)
 
 <br>
 
