@@ -55,6 +55,7 @@
       <td><b>📚 Forks</b></td>
       <td><b>🛎 Issues</b></td>
       <td><b>📬 Pull requests</b></td>
+      <td><b>🔀 My PRs</b></td>
       <td><b>💼 Role</b></td>
     </tr>
   </thead>
@@ -65,6 +66,7 @@
       <td><img alt="Forks" src="https://img.shields.io/github/forks/labstack/echo?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/labstack/echo?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/labstack/echo?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/labstack/echo/pull/2461">#2461</a></td>
       <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>
     <tr>
@@ -73,6 +75,7 @@
       <td><img alt="Forks" src="https://img.shields.io/github/forks/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/modelcontextprotocol/go-sdk/pull/563">#563</a></td>
       <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>
     <tr>
@@ -81,6 +84,7 @@
       <td><img alt="Forks" src="https://img.shields.io/github/forks/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/daixiang0/gci/pull/178">#178</a></td>
       <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>
   </tbody>

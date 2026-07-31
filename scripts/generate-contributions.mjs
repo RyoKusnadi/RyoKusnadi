@@ -67,17 +67,17 @@ function renderRow(nameWithOwner, prs) {
 }
 
 async function main() {
-  const repoNames = await findContributedRepos();
+  const prsByRepo = await findContributedPRs();
 
   const repos = await Promise.all(
-    repoNames.map(async (nameWithOwner) => {
+    [...prsByRepo.entries()].map(async ([nameWithOwner, prs]) => {
       const info = await ghApi(`/repos/${nameWithOwner}`);
-      return { nameWithOwner, stars: info.stargazers_count };
+      return { nameWithOwner, stars: info.stargazers_count, prs };
     }),
   );
   repos.sort((a, b) => b.stars - a.stars);
 
-  const rows = repos.map((r) => renderRow(r.nameWithOwner)).join("\n");
+  const rows = repos.map((r) => renderRow(r.nameWithOwner, r.prs)).join("\n");
 
   const table = repos.length
     ? `<table align="center">
@@ -88,6 +88,7 @@ async function main() {
       <td><b>📚 Forks</b></td>
       <td><b>🛎 Issues</b></td>
       <td><b>📬 Pull requests</b></td>
+      <td><b>🔀 My PRs</b></td>
       <td><b>💼 Role</b></td>
     </tr>
   </thead>
