@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm <a href="https://ryokusnadi.vercel.app/" target="_blank">Ryo Kusnadi</a></h1>
+<h1 align="center">Hi 👋, I'm <a href="https://ryokusnadi.vercel.app/">Ryo Kusnadi</a></h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=34ABEB&center=true&vCenter=true&width=520&lines=An+Ambitious+Software+Engineer;Backend+Engineer+%26+AI+tinkerer;Go+%26+Python+enthusiast;Always+learning+something+new" alt="Typing SVG" />
@@ -18,7 +18,7 @@
 - 📝 I regularly write articles on [Level Up Coding](https://levelup.gitconnected.com)
 - 💬 Ask me about **Go & Python**
 - 📫 How to reach me **ryokusnadi@gmail.com**
-- 📄 Know about my experience: <a href="https://ryokusnadi.vercel.app/Resume.pdf" target="_blank">Resume</a>
+- 📄 Know about my experience: [Resume](https://ryokusnadi.vercel.app/Resume.pdf)
 
 </td>
 <td width="40%">
