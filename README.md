@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm <a href="https://ryokusnadi.com" target="_blank">Ryo Kusnadi</a></h1>
+<h1 align="center">Hi 👋, I'm <a href="https://ryokusnadi.vercel.app/" target="_blank">Ryo Kusnadi</a></h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=34ABEB&center=true&vCenter=true&width=500&lines=An+Ambitious+Software+Engineer;Backend+Engineer+in+E-commerce;Go+%26+Python+enthusiast;Always+learning+something+new" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=34ABEB&center=true&vCenter=true&width=500&lines=An+Ambitious+Software+Engineer;Backend+Engineer+building+AI-powered+dev+tools;Go+%26+Python+enthusiast;Always+learning+something+new" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -13,11 +13,11 @@
 <tr>
 <td valign="top" width="60%">
 
-- 🔭 I'm currently working in E-commerce as a Backend Engineer
+- 🔭 I'm currently a Backend Engineer building AI-powered developer tools
 - 📝 I regularly write articles on [Level Up Coding](https://levelup.gitconnected.com)
 - 💬 Ask me about **Go & Python**
 - 📫 How to reach me **ryokusnadi@gmail.com**
-- 📄 Know about my experience: <a href="https://ryokusnadi.com/static/media/Ryo%20Kusnadi%20-%20CV.2da393752af8e3ddff54.pdf" target="_blank">Resume</a>
+- 📄 Know about my experience: <a href="https://ryokusnadi.vercel.app/Resume.pdf" target="_blank">Resume</a>
 
 </td>
 <td width="40%">
