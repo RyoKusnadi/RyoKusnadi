@@ -14,6 +14,7 @@
 <tr>
 <td valign="top" width="60%">
 
+- 🚀 Founder of **[Interview Gym Pro](https://interview-gym.pro)**: interview prep for software engineers, with Go patterns, a code runner and drills, plus AI feedback from Claude
 - 🔭 I'm currently a Backend Engineer building AI-powered developer tools
 - 📝 I regularly write articles on [Level Up Coding](https://levelup.gitconnected.com)
 - 💬 Ask me about **Go & Python**
@@ -105,6 +106,7 @@
 
 <h3 align="center">Connect With Me</h3>
 <p align="center">
+  <a href="https://interview-gym.pro" target="_blank"><img src="https://img.shields.io/badge/Interview%20Gym%20Pro-5B5BD6?style=for-the-badge&logoColor=white" alt="Interview Gym Pro" /></a>
   <a href="https://www.linkedin.com/in/ryo-kusnadi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/RyoKusnadi" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://medium.com/@ryokusnadi_20" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
