@@ -83,12 +83,39 @@
       <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/containers/kubernetes-mcp-server"><b>kubernetes-mcp-server</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/containers/kubernetes-mcp-server/pull/1502">#1502</a> (open)</td>
+      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/stackql/stackql"><b>stackql</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/stackql/stackql/pull/847">#847</a> (open)</td>
+      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/daixiang0/gci"><b>gci</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
       <td><a href="https://github.com/daixiang0/gci/pull/178">#178</a></td>
+      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/OrlojHQ/orloj"><b>orloj</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/OrlojHQ/orloj/pull/179">#179</a> (open)</td>
       <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
     </tr>
   </tbody>
