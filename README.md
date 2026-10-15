@@ -51,75 +51,28 @@
 
 <h3 align="center"><strong>Open Source Contribution</strong></h3>
 <!-- OSS-CONTRIBUTIONS:START -->
-<table align="center">
-  <thead align="center">
-    <tr>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>🛎 Issues</b></td>
-      <td><b>📬 Pull requests</b></td>
-      <td><b>🔀 My PRs</b></td>
-      <td><b>💼 Role</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/labstack/echo"><b>echo</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/labstack/echo?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/labstack/echo?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/labstack/echo?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/labstack/echo?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/labstack/echo/pull/2461">#2461</a></td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/modelcontextprotocol/go-sdk"><b>go-sdk</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/modelcontextprotocol/go-sdk?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/modelcontextprotocol/go-sdk/pull/563">#563</a></td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/containers/kubernetes-mcp-server"><b>kubernetes-mcp-server</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/containers/kubernetes-mcp-server?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/containers/kubernetes-mcp-server/pull/1502">#1502</a> (open)</td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/stackql/stackql"><b>stackql</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/stackql/stackql?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/stackql/stackql/pull/847">#847</a> (open)</td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/daixiang0/gci"><b>gci</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/daixiang0/gci?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/daixiang0/gci/pull/178">#178</a></td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/OrlojHQ/orloj"><b>orloj</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/OrlojHQ/orloj?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/OrlojHQ/orloj/pull/179">#179</a> (open)</td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>
-  </tbody>
-</table>
+<h4 align="center">Merged PRs (Last 1 Year)</h4>
+
+| No | Project | My Merged PR | Description | Last Update |
+|---|---|---|---|---|
+| 1 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
+
+<h4 align="center">Opened PRs (Last 1 Year)</h4>
+
+| No | Project | My Opened PR | Description | Last Update |
+|---|---|---|---|---|
+| 1 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
+| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-15 |
+| 3 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-15 |
+| 4 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
+
+<h4 align="center">Old PRs</h4>
+
+| No | Project | My Merged PR | Description | Last Update |
+|---|---|---|---|---|
+| 1 | [go-sdk](https://github.com/modelcontextprotocol/go-sdk) | [#563](https://github.com/modelcontextprotocol/go-sdk/pull/563) | Added PKCE check support to OAuth | 2025-10-14 |
+| 2 | [echo](https://github.com/labstack/echo) | [#2461](https://github.com/labstack/echo/pull/2461) | Added Skipper unit tests for BasicAuth and clearer BasicAuthValidator docs | 2024-02-18 |
+| 3 | [gci](https://github.com/daixiang0/gci) | [#178](https://github.com/daixiang0/gci/pull/178) | Added an alias import section | 2023-10-18 |
 <!-- OSS-CONTRIBUTIONS:END -->
 
 <br>

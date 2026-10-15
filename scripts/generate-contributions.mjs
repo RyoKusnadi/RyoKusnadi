@@ -45,70 +45,74 @@ async function searchPRs(state) {
   return items;
 }
 
+// Concise "what I fixed" blurbs, keyed by "owner/repo#number". Falls back to
+// the PR title when a PR has no entry here.
+const DESCRIPTIONS = {
+  "stackql/stackql#847": "Added unit tests for the `sqlrewrite` package",
+  "containers/kubernetes-mcp-server#1502": "Added a metric that tracks in-flight MCP requests",
+  "dagucloud/dagu#3185": "Fixed the dirlock so only one contender can take over a stale lock",
+  "OrlojHQ/orloj#179": "Added a built-in durable Postgres audit sink",
+  "tailscale/tsidp#202": "Added a `-login-server` flag for custom control servers",
+  "modelcontextprotocol/go-sdk#563": "Added PKCE check support to OAuth",
+  "labstack/echo#2461": "Added Skipper unit tests for BasicAuth and clearer BasicAuthValidator docs",
+  "daixiang0/gci#178": "Added an alias import section",
+};
+
 async function findContributedPRs() {
   // "merged" + "open" covers real/active contributions; closed-and-unmerged
   // (rejected/abandoned) PRs are intentionally left out.
   const [merged, open] = await Promise.all([searchPRs("merged"), searchPRs("open")]);
 
-  const prsByRepo = new Map();
+  const prs = [];
   for (const [items, isMerged] of [[merged, true], [open, false]]) {
     for (const item of items) {
       const repo = item.repository_url.replace("https://api.github.com/repos/", "");
       if (repo.startsWith(`${USERNAME}/`)) continue;
-      if (!prsByRepo.has(repo)) prsByRepo.set(repo, []);
-      prsByRepo.get(repo).push({ number: item.number, url: item.html_url, merged: isMerged });
+      const date = (isMerged ? item.pull_request?.merged_at ?? item.closed_at : item.updated_at).slice(0, 10);
+      prs.push({
+        repo,
+        number: item.number,
+        url: item.html_url,
+        merged: isMerged,
+        date,
+        description: DESCRIPTIONS[`${repo}#${item.number}`] ?? item.title,
+      });
     }
   }
-  return prsByRepo;
+  return prs.sort((a, b) => b.date.localeCompare(a.date));
 }
 
-function renderRow(nameWithOwner, prs) {
-  const [, repo] = nameWithOwner.split("/");
-  const prLinks = prs
-    .sort((a, b) => a.number - b.number)
-    .map((pr) => `<a href="${pr.url}">#${pr.number}</a>${pr.merged ? "" : " (open)"}`)
-    .join(", ");
-  return `    <tr>
-      <td><a href="https://github.com/${nameWithOwner}"><b>${repo}</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/${nameWithOwner}?style=flat-square&labelColor=343b41"/></td>
-      <td>${prLinks}</td>
-      <td><img alt="Contributor" src="https://img.shields.io/badge/role-Contributor-green"/></td>
-    </tr>`;
+function renderTable(prLabel, prs) {
+  const rows = prs.map((pr, i) => {
+    const [, name] = pr.repo.split("/");
+    return `| ${i + 1} | [${name}](https://github.com/${pr.repo}) | [#${pr.number}](${pr.url}) | ${pr.description.replaceAll("|", "\\|")} | ${pr.date} |`;
+  });
+  return `| No | Project | ${prLabel} | Description | Last Update |
+|---|---|---|---|---|
+${rows.join("\n")}`;
 }
 
 async function main() {
-  const prsByRepo = await findContributedPRs();
+  const prs = await findContributedPRs();
 
-  const repos = await Promise.all(
-    [...prsByRepo.entries()].map(async ([nameWithOwner, prs]) => {
-      const info = await ghApi(`/repos/${nameWithOwner}`);
-      return { nameWithOwner, stars: info.stargazers_count, prs };
-    }),
-  );
-  repos.sort((a, b) => b.stars - a.stars);
+  const cutoff = new Date();
+  cutoff.setFullYear(cutoff.getFullYear() - 1);
+  const cutoffDate = cutoff.toISOString().slice(0, 10);
 
-  const rows = repos.map((r) => renderRow(r.nameWithOwner, r.prs)).join("\n");
+  const recentMerged = prs.filter((p) => p.merged && p.date >= cutoffDate);
+  const opened = prs.filter((p) => !p.merged);
+  const old = prs.filter((p) => p.merged && p.date < cutoffDate);
 
-  const table = repos.length
-    ? `<table align="center">
-  <thead align="center">
-    <tr>
-      <td><b>🎁 Projects</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>🛎 Issues</b></td>
-      <td><b>📬 Pull requests</b></td>
-      <td><b>🔀 My PRs</b></td>
-      <td><b>💼 Role</b></td>
-    </tr>
-  </thead>
-  <tbody>
-${rows}
-  </tbody>
-</table>`
+  const sections = [
+    ["Merged PRs (Last 1 Year)", "My Merged PR", recentMerged],
+    ["Opened PRs (Last 1 Year)", "My Opened PR", opened],
+    ["Old PRs", "My Merged PR", old],
+  ]
+    .filter(([, , list]) => list.length)
+    .map(([title, label, list]) => `<h4 align="center">${title}</h4>\n\n${renderTable(label, list)}`);
+
+  const table = sections.length
+    ? sections.join("\n\n")
     : `<p align="center"><sub>No pull requests to external repositories yet.</sub></p>`;
 
   const readme = fs.readFileSync(README_PATH, "utf8");
@@ -126,7 +130,7 @@ ${rows}
     readme.slice(endIdx);
 
   fs.writeFileSync(README_PATH, updated);
-  console.log(`Wrote ${repos.length} repositories into the contributions table.`);
+  console.log(`Wrote ${prs.length} pull requests into the contributions tables.`);
 }
 
 main().catch((err) => {
