@@ -55,16 +55,20 @@
 
 | No | Project | My Merged PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
+| 1 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-16 |
+| 2 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
 
 <h4 align="center">Opened PRs (Last 1 Year)</h4>
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
-| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-15 |
-| 3 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-15 |
-| 4 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
+| 1 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
+| 2 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 3 | [go-sdk](https://github.com/modelcontextprotocol/go-sdk) | [#1402](https://github.com/modelcontextprotocol/go-sdk/pull/1402) | mcp: answer plain handler errors with -32603 instead of code 0 | 2026-10-16 |
+| 4 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-16 |
+| 5 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
+| 6 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-15 |
+| 7 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
 
 <h4 align="center">Old PRs</h4>
 
