@@ -63,11 +63,15 @@
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
-| 2 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
-| 3 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-16 |
-| 4 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
-| 5 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
+| 1 | [ongrid](https://github.com/ongridio/ongrid) | [#525](https://github.com/ongridio/ongrid/pull/525) | fix(aiops): stop hardcoding a 15s tool timeout | 2026-10-17 |
+| 2 | [ongrid](https://github.com/ongridio/ongrid) | [#524](https://github.com/ongridio/ongrid/pull/524) | fix(aiops): make a zero tool timeout mean no deadline | 2026-10-17 |
+| 3 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
+| 4 | [dagu](https://github.com/dagucloud/dagu) | [#3219](https://github.com/dagucloud/dagu/pull/3219) | Draw Activity runs as duration bars | 2026-10-17 |
+| 5 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
+| 6 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 7 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-16 |
+| 8 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
+| 9 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
 
 <h4 align="center">Old PRs</h4>
 
