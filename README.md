@@ -69,8 +69,8 @@
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
 | 1 | [ongrid](https://github.com/ongridio/ongrid) | [#536](https://github.com/ongridio/ongrid/pull/536) | fix(frontierbound): fail closed when an edge has no transport binding | 2026-10-20 |
-| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-19 |
-| 3 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-19 |
+| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-20 |
+| 3 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-20 |
 | 4 | [zeroid](https://github.com/highflame-ai/zeroid) | [#450](https://github.com/highflame-ai/zeroid/pull/450) | fix: scope OAuth client admin routes to the caller's tenant | 2026-10-18 |
 | 5 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
 | 6 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
