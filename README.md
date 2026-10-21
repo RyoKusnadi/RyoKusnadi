@@ -68,11 +68,11 @@
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3255](https://github.com/dagucloud/dagu/pull/3255) | Allow while and until repeat without a condition | 2026-10-20 |
-| 2 | [ongrid](https://github.com/ongridio/ongrid) | [#536](https://github.com/ongridio/ongrid/pull/536) | fix(frontierbound): fail closed when an edge has no transport binding | 2026-10-20 |
-| 3 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-20 |
-| 4 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-20 |
-| 5 | [zeroid](https://github.com/highflame-ai/zeroid) | [#450](https://github.com/highflame-ai/zeroid/pull/450) | fix: scope OAuth client admin routes to the caller's tenant | 2026-10-18 |
+| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3255](https://github.com/dagucloud/dagu/pull/3255) | Allow while and until repeat without a condition | 2026-10-21 |
+| 2 | [zeroid](https://github.com/highflame-ai/zeroid) | [#450](https://github.com/highflame-ai/zeroid/pull/450) | fix: scope OAuth client admin routes to the caller's tenant | 2026-10-21 |
+| 3 | [ongrid](https://github.com/ongridio/ongrid) | [#536](https://github.com/ongridio/ongrid/pull/536) | fix(frontierbound): fail closed when an edge has no transport binding | 2026-10-20 |
+| 4 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-20 |
+| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-20 |
 | 6 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
 | 7 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
 | 8 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
