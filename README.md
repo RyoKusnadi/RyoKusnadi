@@ -55,29 +55,29 @@
 
 | No | Project | My Merged PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3230](https://github.com/dagucloud/dagu/pull/3230) | fix: keep npm and npx shims working for symlinked tool binaries | 2026-10-18 |
-| 2 | [ongrid](https://github.com/ongridio/ongrid) | [#525](https://github.com/ongridio/ongrid/pull/525) | fix(aiops): stop hardcoding a 15s tool timeout | 2026-10-17 |
-| 3 | [ongrid](https://github.com/ongridio/ongrid) | [#524](https://github.com/ongridio/ongrid/pull/524) | fix(aiops): make a zero tool timeout mean no deadline | 2026-10-17 |
-| 4 | [dagu](https://github.com/dagucloud/dagu) | [#3219](https://github.com/dagucloud/dagu/pull/3219) | Draw Activity runs as duration bars | 2026-10-17 |
-| 5 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-17 |
-| 6 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-16 |
-| 7 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-16 |
-| 8 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
+| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3255](https://github.com/dagucloud/dagu/pull/3255) | Allow while and until repeat without a condition | 2026-10-21 |
+| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3230](https://github.com/dagucloud/dagu/pull/3230) | fix: keep npm and npx shims working for symlinked tool binaries | 2026-10-18 |
+| 3 | [ongrid](https://github.com/ongridio/ongrid) | [#525](https://github.com/ongridio/ongrid/pull/525) | fix(aiops): stop hardcoding a 15s tool timeout | 2026-10-17 |
+| 4 | [ongrid](https://github.com/ongridio/ongrid) | [#524](https://github.com/ongridio/ongrid/pull/524) | fix(aiops): make a zero tool timeout mean no deadline | 2026-10-17 |
+| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3219](https://github.com/dagucloud/dagu/pull/3219) | Draw Activity runs as duration bars | 2026-10-17 |
+| 6 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-17 |
+| 7 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-16 |
+| 8 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-16 |
+| 9 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
 
 <h4 align="center">Opened PRs (Last 1 Year)</h4>
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3255](https://github.com/dagucloud/dagu/pull/3255) | Allow while and until repeat without a condition | 2026-10-21 |
+| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-21 |
 | 2 | [zeroid](https://github.com/highflame-ai/zeroid) | [#450](https://github.com/highflame-ai/zeroid/pull/450) | fix: scope OAuth client admin routes to the caller's tenant | 2026-10-21 |
 | 3 | [ongrid](https://github.com/ongridio/ongrid) | [#536](https://github.com/ongridio/ongrid/pull/536) | fix(frontierbound): fail closed when an edge has no transport binding | 2026-10-20 |
 | 4 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-20 |
-| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-20 |
-| 6 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
-| 7 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
-| 8 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
-| 9 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
-| 10 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
+| 5 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
+| 6 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
+| 7 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 8 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
+| 9 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
 
 <h4 align="center">Old PRs</h4>
 
