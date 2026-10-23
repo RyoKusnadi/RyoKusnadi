@@ -71,13 +71,13 @@
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-22 |
-| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-22 |
-| 3 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
-| 4 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
-| 5 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
-| 6 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
-| 7 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-15 |
+| 1 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-23 |
+| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-22 |
+| 3 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-22 |
+| 4 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
+| 5 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-16 |
+| 6 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 7 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
 
 <h4 align="center">Old PRs</h4>
 
