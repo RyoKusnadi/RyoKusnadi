@@ -71,7 +71,7 @@
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-23 |
+| 1 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-24 |
 | 2 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-22 |
 | 3 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-22 |
 | 4 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
