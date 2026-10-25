@@ -72,17 +72,18 @@
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
-| 2 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
-| 3 | [kodit](https://github.com/helixml/kodit) | [#579](https://github.com/helixml/kodit/pull/579) | fix: keep chunking other files when a document cannot be read | 2026-10-24 |
-| 4 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-24 |
-| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-24 |
-| 6 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-24 |
-| 7 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-24 |
-| 8 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-22 |
-| 9 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
-| 10 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
-| 11 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
+| 1 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-25 |
+| 2 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
+| 3 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
+| 4 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
+| 5 | [kodit](https://github.com/helixml/kodit) | [#579](https://github.com/helixml/kodit/pull/579) | fix: keep chunking other files when a document cannot be read | 2026-10-24 |
+| 6 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-24 |
+| 7 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-24 |
+| 8 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-24 |
+| 9 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-22 |
+| 10 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
+| 11 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 12 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
 
 <h4 align="center">Old PRs</h4>
 
