@@ -73,10 +73,10 @@
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
 | 1 | [mobilecli](https://github.com/mobile-next/mobilecli) | [#540](https://github.com/mobile-next/mobilecli/pull/540) | fix(ios): list simulator crashes on macOS 27, where reports lack is_simulated | 2026-10-26 |
-| 2 | [gitleaks](https://github.com/gitleaks/gitleaks) | [#2321](https://github.com/gitleaks/gitleaks/pull/2321) | fix: exclude the previous line's newline from Finding.Line | 2026-10-25 |
-| 3 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-25 |
-| 4 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
-| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-25 |
+| 2 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-26 |
+| 3 | [gitleaks](https://github.com/gitleaks/gitleaks) | [#2321](https://github.com/gitleaks/gitleaks/pull/2321) | fix: exclude the previous line's newline from Finding.Line | 2026-10-25 |
+| 4 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-25 |
+| 5 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
 | 6 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
 | 7 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
 | 8 | [kodit](https://github.com/helixml/kodit) | [#579](https://github.com/helixml/kodit/pull/579) | fix: keep chunking other files when a document cannot be read | 2026-10-24 |
