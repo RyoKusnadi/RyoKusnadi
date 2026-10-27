@@ -74,19 +74,20 @@
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [casdoor](https://github.com/casdoor/casdoor) | [#5994](https://github.com/casdoor/casdoor/pull/5994) | fix: keep system info working when process I/O counters are unavailable | 2026-10-27 |
-| 2 | [mobilecli](https://github.com/mobile-next/mobilecli) | [#540](https://github.com/mobile-next/mobilecli/pull/540) | fix(ios): list simulator crashes on macOS 27, where reports lack is_simulated | 2026-10-26 |
-| 3 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-26 |
-| 4 | [gitleaks](https://github.com/gitleaks/gitleaks) | [#2321](https://github.com/gitleaks/gitleaks/pull/2321) | fix: exclude the previous line's newline from Finding.Line | 2026-10-25 |
-| 5 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-25 |
-| 6 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
-| 7 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
-| 8 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
-| 9 | [kodit](https://github.com/helixml/kodit) | [#579](https://github.com/helixml/kodit/pull/579) | fix: keep chunking other files when a document cannot be read | 2026-10-24 |
-| 10 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-24 |
-| 11 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
-| 12 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
-| 13 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
+| 1 | [flyte](https://github.com/flyteorg/flyte) | [#8252](https://github.com/flyteorg/flyte/pull/8252) | fix: apply the run-level service account to task pods | 2026-10-27 |
+| 2 | [casdoor](https://github.com/casdoor/casdoor) | [#5994](https://github.com/casdoor/casdoor/pull/5994) | fix: keep system info working when process I/O counters are unavailable | 2026-10-27 |
+| 3 | [mobilecli](https://github.com/mobile-next/mobilecli) | [#540](https://github.com/mobile-next/mobilecli/pull/540) | fix(ios): list simulator crashes on macOS 27, where reports lack is_simulated | 2026-10-26 |
+| 4 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-26 |
+| 5 | [gitleaks](https://github.com/gitleaks/gitleaks) | [#2321](https://github.com/gitleaks/gitleaks/pull/2321) | fix: exclude the previous line's newline from Finding.Line | 2026-10-25 |
+| 6 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-25 |
+| 7 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
+| 8 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
+| 9 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
+| 10 | [kodit](https://github.com/helixml/kodit) | [#579](https://github.com/helixml/kodit/pull/579) | fix: keep chunking other files when a document cannot be read | 2026-10-24 |
+| 11 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-24 |
+| 12 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
+| 13 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 14 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-15 |
 
 <h4 align="center">Old PRs</h4>
 
