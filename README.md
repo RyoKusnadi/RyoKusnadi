@@ -71,28 +71,6 @@
 | 14 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-16 |
 | 15 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
 
-<h4 align="center">Opened PRs (Last 1 Year)</h4>
-
-| No | Project | My Opened PR | Description | Last Update |
-|---|---|---|---|---|
-| 1 | [kernel-images](https://github.com/kernel/kernel-images) | [#496](https://github.com/kernel/kernel-images/pull/496) | fix(cdpmonitor): stop attaching to shared workers | 2026-10-30 |
-| 2 | [plik](https://github.com/root-gg/plik) | [#813](https://github.com/root-gg/plik/pull/813) | fix(webapp): add server version to theme CSS URLs | 2026-10-29 |
-| 3 | [dagu](https://github.com/dagucloud/dagu) | [#3365](https://github.com/dagucloud/dagu/pull/3365) | fix(browser): keep a separate artifacts directory per foreach item | 2026-10-27 |
-| 4 | [zeroid](https://github.com/highflame-ai/zeroid) | [#467](https://github.com/highflame-ai/zeroid/pull/467) | test: give each mock IdP its own issuer path prefix | 2026-10-27 |
-| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3364](https://github.com/dagucloud/dagu/pull/3364) | fix(persis): release provider sessions owned by foreach body steps | 2026-10-27 |
-| 6 | [dagu](https://github.com/dagucloud/dagu) | [#3363](https://github.com/dagucloud/dagu/pull/3363) | fix(foreach): let body steps inherit the foreach step's env scope | 2026-10-27 |
-| 7 | [zeroid](https://github.com/highflame-ai/zeroid) | [#466](https://github.com/highflame-ai/zeroid/pull/466) | feat(bindings): add an atomic await_adoption create mode | 2026-10-27 |
-| 8 | [dagu](https://github.com/dagucloud/dagu) | [#3241](https://github.com/dagucloud/dagu/pull/3241) | xlsx.write: add formats to set a number format per column | 2026-10-27 |
-| 9 | [tsidp](https://github.com/tailscale/tsidp) | [#202](https://github.com/tailscale/tsidp/pull/202) | Added a `-login-server` flag for custom control servers | 2026-10-27 |
-| 10 | [mobilecli](https://github.com/mobile-next/mobilecli) | [#540](https://github.com/mobile-next/mobilecli/pull/540) | fix(ios): list simulator crashes on macOS 27, where reports lack is_simulated | 2026-10-26 |
-| 11 | [dagu](https://github.com/dagucloud/dagu) | [#3240](https://github.com/dagucloud/dagu/pull/3240) | workbook: let xlsx.update_rows succeed when rows is empty | 2026-10-26 |
-| 12 | [gitleaks](https://github.com/gitleaks/gitleaks) | [#2321](https://github.com/gitleaks/gitleaks/pull/2321) | fix: exclude the previous line's newline from Finding.Line | 2026-10-25 |
-| 13 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
-| 14 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
-| 15 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
-| 16 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
-| 17 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
-
 <h4 align="center">Old PRs</h4>
 
 | No | Project | My Merged PR | Description | Last Update |
