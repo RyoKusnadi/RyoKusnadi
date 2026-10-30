@@ -90,9 +90,8 @@
 | 13 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2692](https://github.com/trpc-group/trpc-agent-go/pull/2692) | tool: support schema format, bounds and array length keywords | 2026-10-25 |
 | 14 | [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | [#954](https://github.com/Colin-XKL/FeedCraft/pull/954) | fix(admin): don't sign JWTs with a public key when API_SECRET is unset | 2026-10-24 |
 | 15 | [WeKnora](https://github.com/Tencent/WeKnora) | [#4697](https://github.com/Tencent/WeKnora/pull/4697) | fix(vlm): raise OCR output budget and make it configurable | 2026-10-24 |
-| 16 | [kodit](https://github.com/helixml/kodit) | [#579](https://github.com/helixml/kodit/pull/579) | fix: keep chunking other files when a document cannot be read | 2026-10-24 |
-| 17 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
-| 18 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
+| 16 | [obot](https://github.com/obot-platform/obot) | [#8322](https://github.com/obot-platform/obot/pull/8322) | fix(enforcement): allow Codex node_repl under built-in MCP servers | 2026-10-17 |
+| 17 | [tyk](https://github.com/TykTechnologies/tyk) | [#8807](https://github.com/TykTechnologies/tyk/pull/8807) | fix(oauth2): send requested_token_type in RFC 8693 token exchange | 2026-10-16 |
 
 <h4 align="center">Old PRs</h4>
 
