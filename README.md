@@ -199,25 +199,25 @@
 |---|---|---|---|---|
 | 1 | [dagu](https://github.com/dagucloud/dagu) | [#3602](https://github.com/dagucloud/dagu/pull/3602) | Add --where, --merged, --trim and --formulas to dagu xlsx read | 2026-11-07 |
 | 2 | [erigon](https://github.com/erigontech/erigon) | [#25745](https://github.com/erigontech/erigon/pull/25745) | rpc/jsonrpc: return [] instead of null from debug_getModifiedAccountsBy* when no account changed | 2026-11-07 |
-| 3 | [dbxcli](https://github.com/dropbox/dbxcli) | [#396](https://github.com/dropbox/dbxcli/pull/396) | Fix share-link folder download when the folder is not in the caller's Dropbox | 2026-11-06 |
-| 4 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#111](https://github.com/coollabsio/coolify-cli/pull/111) | fix(app): base64-encode --dockerfile before sending it to the API | 2026-11-06 |
-| 5 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#110](https://github.com/coollabsio/coolify-cli/pull/110) | fix(app): send --environment-uuid as environment_uuid in create requests | 2026-11-06 |
-| 6 | [symfony-cli](https://github.com/symfony-cli/symfony-cli) | [#789](https://github.com/symfony-cli/symfony-cli/pull/789) | Fix waiting for pid and log files when the home directory is a symlink | 2026-11-06 |
-| 7 | [deps.dev](https://github.com/google/deps.dev) | [#411](https://github.com/google/deps.dev/pull/411) | examples/skills: fix malformed JSON in the scan-dependencies curl example | 2026-11-06 |
-| 8 | [garm](https://github.com/cloudbase/garm) | [#945](https://github.com/cloudbase/garm/pull/945) | Fix scale set --outdated rotation matching runners created after an update | 2026-11-06 |
-| 9 | [bazel-remote](https://github.com/buchgr/bazel-remote) | [#946](https://github.com/buchgr/bazel-remote/pull/946) | disk: treat a gRPC NotFound from a proxy backend as a cache miss | 2026-11-06 |
-| 10 | [osv-scalibr](https://github.com/google/osv-scalibr) | [#2608](https://github.com/google/osv-scalibr/pull/2608) | Fix os-release fallback to usr/lib/os-release on image layers | 2026-11-06 |
-| 11 | [yay](https://github.com/Jguer/yay) | [#3015](https://github.com/Jguer/yay/pull/3015) | fix(query): don't treat a sync repo named aur as the AUR in search results | 2026-11-06 |
-| 12 | [syft](https://github.com/anchore/syft) | [#5532](https://github.com/anchore/syft/pull/5532) | Fix relative directory scans including sibling packages when the working directory is a symlink | 2026-11-06 |
-| 13 | [sqlc](https://github.com/sqlc-dev/sqlc) | [#4678](https://github.com/sqlc-dev/sqlc/pull/4678) | duckdb: fix unknown column error for the rowid pseudo-column | 2026-11-06 |
-| 14 | [gonka](https://github.com/gonka-ai/gonka) | [#2220](https://github.com/gonka-ai/gonka/pull/2220) | fix(api): reject node ids with characters other than A-Z, a-z, 0-9, - and _ | 2026-11-06 |
-| 15 | [iotex-core](https://github.com/iotexproject/iotex-core) | [#5067](https://github.com/iotexproject/iotex-core/pull/5067) | fix(p2p): stop connectBootNode from blocking when only some bootnodes connect | 2026-11-06 |
-| 16 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#101](https://github.com/tawanorg/claude-sync/pull/101) | fix: ignore drive-letter case when mapping Windows paths | 2026-11-06 |
-| 17 | [prebid-server](https://github.com/prebid/prebid-server) | [#5086](https://github.com/prebid/prebid-server/pull/5086) | Rules Engine Module: Limit number of cached accounts | 2026-11-06 |
-| 18 | [yarr](https://github.com/nkanaev/yarr) | [#349](https://github.com/nkanaev/yarr/pull/349) | parser: detect feed format beyond the first 2 KB | 2026-11-06 |
-| 19 | [copy](https://github.com/otiai10/copy) | [#185](https://github.com/otiai10/copy/pull/185) | fix: refuse to copy a file onto itself instead of truncating it | 2026-11-06 |
-| 20 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [#7476](https://github.com/woodpecker-ci/woodpecker/pull/7476) | Fix docker detached service reported as failed when teardown removes it before wait (incl. Podman 404) | 2026-11-06 |
-| 21 | [k8up](https://github.com/k8up-io/k8up) | [#1294](https://github.com/k8up-io/k8up/pull/1294) | Buffer backupCommand output so a slow restic start does not drop the exec stream | 2026-11-06 |
+| 3 | [k8up](https://github.com/k8up-io/k8up) | [#1294](https://github.com/k8up-io/k8up/pull/1294) | Buffer backupCommand output so a slow restic start does not drop the exec stream | 2026-11-07 |
+| 4 | [dbxcli](https://github.com/dropbox/dbxcli) | [#396](https://github.com/dropbox/dbxcli/pull/396) | Fix share-link folder download when the folder is not in the caller's Dropbox | 2026-11-06 |
+| 5 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#111](https://github.com/coollabsio/coolify-cli/pull/111) | fix(app): base64-encode --dockerfile before sending it to the API | 2026-11-06 |
+| 6 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#110](https://github.com/coollabsio/coolify-cli/pull/110) | fix(app): send --environment-uuid as environment_uuid in create requests | 2026-11-06 |
+| 7 | [symfony-cli](https://github.com/symfony-cli/symfony-cli) | [#789](https://github.com/symfony-cli/symfony-cli/pull/789) | Fix waiting for pid and log files when the home directory is a symlink | 2026-11-06 |
+| 8 | [deps.dev](https://github.com/google/deps.dev) | [#411](https://github.com/google/deps.dev/pull/411) | examples/skills: fix malformed JSON in the scan-dependencies curl example | 2026-11-06 |
+| 9 | [garm](https://github.com/cloudbase/garm) | [#945](https://github.com/cloudbase/garm/pull/945) | Fix scale set --outdated rotation matching runners created after an update | 2026-11-06 |
+| 10 | [bazel-remote](https://github.com/buchgr/bazel-remote) | [#946](https://github.com/buchgr/bazel-remote/pull/946) | disk: treat a gRPC NotFound from a proxy backend as a cache miss | 2026-11-06 |
+| 11 | [osv-scalibr](https://github.com/google/osv-scalibr) | [#2608](https://github.com/google/osv-scalibr/pull/2608) | Fix os-release fallback to usr/lib/os-release on image layers | 2026-11-06 |
+| 12 | [yay](https://github.com/Jguer/yay) | [#3015](https://github.com/Jguer/yay/pull/3015) | fix(query): don't treat a sync repo named aur as the AUR in search results | 2026-11-06 |
+| 13 | [syft](https://github.com/anchore/syft) | [#5532](https://github.com/anchore/syft/pull/5532) | Fix relative directory scans including sibling packages when the working directory is a symlink | 2026-11-06 |
+| 14 | [sqlc](https://github.com/sqlc-dev/sqlc) | [#4678](https://github.com/sqlc-dev/sqlc/pull/4678) | duckdb: fix unknown column error for the rowid pseudo-column | 2026-11-06 |
+| 15 | [gonka](https://github.com/gonka-ai/gonka) | [#2220](https://github.com/gonka-ai/gonka/pull/2220) | fix(api): reject node ids with characters other than A-Z, a-z, 0-9, - and _ | 2026-11-06 |
+| 16 | [iotex-core](https://github.com/iotexproject/iotex-core) | [#5067](https://github.com/iotexproject/iotex-core/pull/5067) | fix(p2p): stop connectBootNode from blocking when only some bootnodes connect | 2026-11-06 |
+| 17 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#101](https://github.com/tawanorg/claude-sync/pull/101) | fix: ignore drive-letter case when mapping Windows paths | 2026-11-06 |
+| 18 | [prebid-server](https://github.com/prebid/prebid-server) | [#5086](https://github.com/prebid/prebid-server/pull/5086) | Rules Engine Module: Limit number of cached accounts | 2026-11-06 |
+| 19 | [yarr](https://github.com/nkanaev/yarr) | [#349](https://github.com/nkanaev/yarr/pull/349) | parser: detect feed format beyond the first 2 KB | 2026-11-06 |
+| 20 | [copy](https://github.com/otiai10/copy) | [#185](https://github.com/otiai10/copy/pull/185) | fix: refuse to copy a file onto itself instead of truncating it | 2026-11-06 |
+| 21 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [#7476](https://github.com/woodpecker-ci/woodpecker/pull/7476) | Fix docker detached service reported as failed when teardown removes it before wait (incl. Podman 404) | 2026-11-06 |
 | 22 | [steampipe](https://github.com/turbot/steampipe) | [#5084](https://github.com/turbot/steampipe/pull/5084) | Fix plugin manager panic when connection config changes while a plugin is starting | 2026-11-06 |
 | 23 | [oapi-sdk-go](https://github.com/larksuite/oapi-sdk-go) | [#253](https://github.com/larksuite/oapi-sdk-go/pull/253) | fix(channel): normalize flat post content instead of returning a placeholder | 2026-11-05 |
 | 24 | [GenieX](https://github.com/qualcomm/GenieX) | [#1654](https://github.com/qualcomm/GenieX/pull/1654) | fix(server): omit unset fields from non-streaming chat responses | 2026-11-05 |
