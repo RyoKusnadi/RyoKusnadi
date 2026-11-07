@@ -1,0 +1,63 @@
+name: Trophy
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at midnight UTC
+  workflow_dispatch:
+  push:
+    branches: [master]
+
+jobs:
+  trophy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      # Self-hosted: clones the official ryo-ma/github-profile-trophy
+      # project (pinned to a specific commit) and runs its render
+      # script directly, instead of depending on the shared
+      # github-profile-trophy.vercel.app instance (currently down
+      # with a 402).
+      - name: Clone github-profile-trophy
+        run: |
+          git clone https://github.com/ryo-ma/github-profile-trophy.git /tmp/trophy
+          cd /tmp/trophy
+          git checkout e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+
+      - name: Render trophy.svg
+        working-directory: /tmp/trophy
+        env:
+          GITHUB_TOKEN1: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          deno run --allow-net --allow-env --allow-read --allow-write \
+            ./render_svg.ts RyoKusnadi "$RUNNER_TEMP/trophy.svg" tokyonight
+
+      - name: Commit trophy.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Other workflows (and the daily squash force-push) may update master
+          # while this job runs, so never rebase: reset to the latest master,
+          # regenerate, and retry if another job wins the push race.
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth=1 origin master
+            git reset --hard FETCH_HEAD
+            cp "$RUNNER_TEMP/trophy.svg" trophy.svg
+            # Split into animated per-trophy cards + refresh the README section.
+            node scripts/enhance-trophies.mjs trophy.svg
+            git add trophy.svg assets/trophies README.md
+            if git diff --staged --quiet; then echo "No changes"; exit 0; fi
+            git commit -m "Update trophies [skip ci]"
+            if git push origin HEAD:master; then exit 0; fi
+            echo "Push rejected (attempt $attempt), retrying..."
+            sleep $((RANDOM % 10 + 5))
+          done
+          exit 1
