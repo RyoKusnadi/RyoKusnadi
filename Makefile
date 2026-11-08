@@ -1,7 +1,7 @@
 .PHONY: all contributions writings trophies connect-badges
 
 # Regenerate every README section.
-all: contributions writings trophies
+all: contributions writings
 
 # Needs a GitHub token; falls back to the gh CLI's.
 contributions:

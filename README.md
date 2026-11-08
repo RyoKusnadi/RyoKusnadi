@@ -89,40 +89,8 @@
 <sub>📅 Jun 27, 2025 · ⏱️ 9 min read</sub><br>
 <sub><code>#prompt-engineering</code> <code>#artificial-intelligence</code> <code>#developer-tools</code></sub>
 </td>
-<td width="50%" valign="top">
-<a href="https://levelup.gitconnected.com/structured-logging-in-go-1-21-b6713265787" title="Structured Logging In Go 1.21"><img src="https://miro.medium.com/v2/resize:fill:800:420/0*FYZPTqJts4DiHdoV" width="100%" alt="Structured Logging In Go 1.21" /></a>
-<a href="https://levelup.gitconnected.com/structured-logging-in-go-1-21-b6713265787"><b>Structured Logging In Go 1.21</b></a><br>
-<sub>📅 Sep 10, 2023 · ⏱️ 9 min read</sub><br>
-<sub><code>#logging</code> <code>#slog</code> <code>#golang</code></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://levelup.gitconnected.com/how-to-implement-harness-engineering-fe70c558bb7f" title="How To Implement Harness Engineering"><img src="https://miro.medium.com/v2/resize:fill:800:420/1*-6TSKFbtBTJneXEAjXSXEw.png" width="100%" alt="How To Implement Harness Engineering" /></a>
-<a href="https://levelup.gitconnected.com/how-to-implement-harness-engineering-fe70c558bb7f"><b>How To Implement Harness Engineering</b></a><br>
-<sub>📅 May 11, 2026 · ⏱️ 44 min read</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://levelup.gitconnected.com/agentic-ai-security-how-well-do-you-know-about-it-db877cab3312" title="Agentic AI Security: How Well Do You Know About It…"><img src="https://miro.medium.com/v2/resize:fill:800:420/1*01EMqKjzk2K8aKXccYCHRg.png" width="100%" alt="Agentic AI Security: How Well Do You Know About It…" /></a>
-<a href="https://levelup.gitconnected.com/agentic-ai-security-how-well-do-you-know-about-it-db877cab3312"><b>Agentic AI Security: How Well Do You Know About It…</b></a><br>
-<sub>📅 Jul 27, 2026 · ⏱️ 8 min read</sub>
-</td>
 </tr>
 </table>
-
-<details>
-<summary><b>More articles</b> (6)</summary>
-
-| Article | Published | Read time |
-|---|---|---|
-| [Personal Summary: How to Plan Your Life](https://medium.com/@ryo.kusnadi/personal-summary-how-to-plan-your-life-15302ec18736) | Dec 10, 2025 | 6 min |
-| [Singleflight Concurrency Design Pattern In Golang](https://levelup.gitconnected.com/singleflight-concurrency-design-pattern-in-golang-f4ce5c1ce87e) | Oct 22, 2023 | 5 min |
-| [Deep Dive To ‘Request — Response’](https://levelup.gitconnected.com/deep-dive-to-request-response-91404b5af0e8) | Aug 13, 2023 | 9 min |
-| [Introduction to Kafka In Go](https://levelup.gitconnected.com/introduction-to-kafka-in-go-2a5755df504c) | Jun 16, 2023 | 6 min |
-| [Introduction To RNN And LSTM Algorithm](https://medium.com/@ryo.kusnadi/introduction-to-rnn-and-lstm-algorithm-5a3186460d1a) | Sep 8, 2020 | 2 min |
-| [The Data Science Methodology](https://medium.com/@ryo.kusnadi/the-data-science-methodology-6e87036e85d9) | Sep 4, 2020 | 3 min |
-
-</details>
 
 <p align="center"><a href="https://medium.com/@ryo.kusnadi"><b>Read everything on Medium →</b></a></p>
 <!-- MY-WRITINGS:END -->
@@ -234,40 +202,6 @@
 
 </details>
 <!-- OSS-CONTRIBUTIONS:END -->
-
-<br>
-
-<h3 align="center"><strong>🏆 GitHub Achievements</strong></h3>
-<!-- TROPHIES:START -->
-<p align="center">
-  <a href="https://github.com/RyoKusnadi?tab=repositories" target="_blank" title="MultiLanguage: Secret trophy, Rainbow Lang User, 17pt (unlocked)"><img src="./assets/trophies/multilanguage.svg" width="92" alt="MultiLanguage: Secret trophy, Rainbow Lang User, 17pt (unlocked)" /></a>
-  <a href="https://github.com/RyoKusnadi?tab=repositories" target="_blank" title="Repositories: SSS rank, God Repo Creator, 102pt (max rank)"><img src="./assets/trophies/repositories.svg" width="92" alt="Repositories: SSS rank, God Repo Creator, 102pt (max rank)" /></a>
-  <a href="https://github.com/search?q=author%3ARyoKusnadi&type=commits" target="_blank" title="Commits: S rank, Super Committer, 1.1kpt (next: SS at 2,000pt)"><img src="./assets/trophies/commits.svg" width="92" alt="Commits: S rank, Super Committer, 1.1kpt (next: SS at 2,000pt)" /></a>
-  <a href="https://github.com/search?q=author%3ARyoKusnadi%20is%3Apr&type=pullrequests" target="_blank" title="PullRequest: S rank, Super Puller, 289pt (next: SS at 500pt)"><img src="./assets/trophies/pullrequest.svg" width="92" alt="PullRequest: S rank, Super Puller, 289pt (next: SS at 500pt)" /></a>
-  <a href="https://github.com/RyoKusnadi" target="_blank" title="Experience: AAA rank, Expert Dev, 36pt (next: S at 40pt)"><img src="./assets/trophies/experience.svg" width="92" alt="Experience: AAA rank, Expert Dev, 36pt (next: S at 40pt)" /></a>
-  <a href="https://github.com/RyoKusnadi?tab=repositories&sort=stargazers" target="_blank" title="Stars: B rank, Middle Star, 14pt (next: A at 30pt)"><img src="./assets/trophies/stars.svg" width="92" alt="Stars: B rank, Middle Star, 14pt (next: A at 30pt)" /></a>
-  <a href="https://github.com/RyoKusnadi?tab=followers" target="_blank" title="Followers: B rank, Many Friends, 18pt (next: A at 20pt)"><img src="./assets/trophies/followers.svg" width="92" alt="Followers: B rank, Many Friends, 18pt (next: A at 20pt)" /></a>
-  <a href="https://github.com/search?q=author%3ARyoKusnadi%20is%3Aissue&type=issues" target="_blank" title="Issues: C rank, First Issue, 3pt (next: B at 10pt)"><img src="./assets/trophies/issues.svg" width="92" alt="Issues: C rank, First Issue, 3pt (next: B at 10pt)" /></a>
-</p>
-
-<details>
-<summary><b>How the ranks work</b></summary>
-
-| Trophy | Rank | Title | Points | Progress to next rank | Next rank |
-|---|---|---|---|---|---|
-| [MultiLanguage](https://github.com/RyoKusnadi?tab=repositories) | Secret | Rainbow Lang User | 17 | Unlocked | Hidden achievement unlocked |
-| [Repositories](https://github.com/RyoKusnadi?tab=repositories) | **SSS** | God Repo Creator | 102 | Max rank | Already at the top |
-| [Commits](https://github.com/search?q=author%3ARyoKusnadi&type=commits) | **S** | Super Committer | 1.1k | ▰▱▱▱▱▱▱▱▱▱ 9% | SS · Deep Committer at 2,000pt |
-| [PullRequest](https://github.com/search?q=author%3ARyoKusnadi%20is%3Apr&type=pullrequests) | **S** | Super Puller | 289 | ▰▰▰▱▱▱▱▱▱▱ 30% | SS · Deep Puller at 500pt |
-| [Experience](https://github.com/RyoKusnadi) | **AAA** | Expert Dev | 36 | ▰▰▰▰▰▰▰▱▱▱ 67% | S · Master Dev at 40pt |
-| [Stars](https://github.com/RyoKusnadi?tab=repositories&sort=stargazers) | **B** | Middle Star | 14 | ▰▰▱▱▱▱▱▱▱▱ 20% | A · You are a Star at 30pt |
-| [Followers](https://github.com/RyoKusnadi?tab=followers) | **B** | Many Friends | 18 | ▰▰▰▰▰▰▰▰▱▱ 80% | A · Dynamic User at 20pt |
-| [Issues](https://github.com/search?q=author%3ARyoKusnadi%20is%3Aissue&type=issues) | **C** | First Issue | 3 | ▰▰▱▱▱▱▱▱▱▱ 22% | B · Middle Issuer at 10pt |
-
-<sub>Ranks go C → B → A → AA → AAA → S → SS → SSS. Click a trophy to see what it counts, hover for details. Refreshed daily by <a href="https://github.com/ryo-ma/github-profile-trophy">github-profile-trophy</a>.</sub>
-
-</details>
-<!-- TROPHIES:END -->
 
 <br>
 

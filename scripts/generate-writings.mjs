@@ -12,16 +12,13 @@ const FEED_URL = "https://medium.com/feed/@ryo.kusnadi";
 const README_PATH = new URL("../README.md", import.meta.url);
 const START_MARKER = "<!-- MY-WRITINGS:START -->";
 const END_MARKER = "<!-- MY-WRITINGS:END -->";
-const FEATURED_COUNT = 4; // shown as a 2x2 grid of cards
+const FEATURED_COUNT = 1; // only the top article is shown
 const WORDS_PER_MINUTE = 265; // what Medium uses for its read-time estimate
 const COVER_SIZE = "800:420"; // Medium's CDN crops covers so cards line up
 
-// Curated highlights, featured first regardless of publish date.
+// The one article shown (the most-clapped; Medium has no API for claps).
 const PINNED_POST_URLS = [
   "https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200",
-  "https://levelup.gitconnected.com/structured-logging-in-go-1-21-b6713265787",
-  "https://levelup.gitconnected.com/how-to-implement-harness-engineering-fe70c558bb7f",
-  "https://levelup.gitconnected.com/agentic-ai-security-how-well-do-you-know-about-it-db877cab3312",
 ];
 
 function decodeEntities(text) {
@@ -99,28 +96,15 @@ ${cover}<a href="${post.link}"><b>${title}</b></a><br>
 </td>`;
 }
 
-function renderSection({ featured, more }) {
+function renderSection({ featured }) {
   const rows = [];
   for (let i = 0; i < featured.length; i += 2) {
     rows.push(`<tr>\n${featured.slice(i, i + 2).map(renderCard).join("\n")}\n</tr>`);
   }
 
-  const moreList = more.length
-    ? `
-
-<details>
-<summary><b>More articles</b> (${more.length})</summary>
-
-| Article | Published | Read time |
-|---|---|---|
-${more.map((p) => `| [${p.title.replaceAll("|", "\\|")}](${p.link}) | ${fmtDate(p.date)} | ${p.minutes} min |`).join("\n")}
-
-</details>`
-    : "";
-
   return `<table>
 ${rows.join("\n")}
-</table>${moreList}
+</table>
 
 <p align="center"><a href="${PROFILE_URL}"><b>Read everything on Medium →</b></a></p>`;
 }
