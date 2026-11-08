@@ -15,7 +15,7 @@
 <td valign="top" width="60%">
 
 - 🔭 **Backend Engineer** building AI-powered developer tools
-- 🌱 Open source contributor with **<!-- OSS-MERGED-COUNT -->53<!-- /OSS-MERGED-COUNT --> merged PRs** in the last year; contributor to [dagu](https://github.com/dagucloud/dagu), [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server), [lakeFS](https://github.com/treeverse/lakeFS) and the [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)
+- 🌱 Open source contributor with **<!-- OSS-MERGED-COUNT -->54<!-- /OSS-MERGED-COUNT --> merged PRs** in the last year; contributor to [dagu](https://github.com/dagucloud/dagu), [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server), [lakeFS](https://github.com/treeverse/lakeFS) and the [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk)
 - ✍️ Writing about Go, AI agents and MCP on [Level Up Coding](https://levelup.gitconnected.com) and [Medium](https://medium.com/@ryo.kusnadi)
 - 💬 Ask me about **Go, Python, MCP & AI agents**
 - 📫 Reach me at **[ryokusnadi@gmail.com](mailto:ryokusnadi@gmail.com)**
@@ -132,150 +132,153 @@
 <h3 align="center"><strong>Open Source Contribution</strong></h3>
 <!-- OSS-CONTRIBUTIONS:START -->
 <details>
-<summary><b>Merged PRs (Last 1 Year)</b> (53)</summary>
+<summary><b>Merged PRs (Last 1 Year)</b> (54)</summary>
 
 | No | Project | My Merged PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [dockerfmt](https://github.com/reteps/dockerfmt) | [#75](https://github.com/reteps/dockerfmt/pull/75) | fix(format): escape quotes and backslashes when converting MAINTAINER to LABEL | 2026-11-07 |
-| 2 | [dockerfmt](https://github.com/reteps/dockerfmt) | [#74](https://github.com/reteps/dockerfmt/pull/74) | fix(env): quote legacy ENV values that contain spaces | 2026-11-07 |
-| 3 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2192](https://github.com/chenhg5/cc-connect/pull/2192) | fix(claudecode): read session transcript lines over 256KB in /list and /history | 2026-11-07 |
-| 4 | [adk-go](https://github.com/google/adk-go) | [#2115](https://github.com/google/adk-go/pull/2115) | fix(mcptoolset): let a CommandTransport reconnect | 2026-11-07 |
-| 5 | [crowdsec-bouncer-traefik-plugin](https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin) | [#422](https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pull/422) | 🐛 return 429 instead of 403 for AppSec RateLimit() blocks | 2026-11-06 |
-| 6 | [sipexer](https://github.com/miconda/sipexer) | [#64](https://github.com/miconda/sipexer/pull/64) | sipexer.go: follow RFC 3261 retransmission timers over udp | 2026-11-06 |
-| 7 | [vacuum](https://github.com/daveshanley/vacuum) | [#1040](https://github.com/daveshanley/vacuum/pull/1040) | fix: let a severity shorthand enable a rule turned off by extends | 2026-11-06 |
-| 8 | [aws-sso-cli](https://github.com/synfinatic/aws-sso-cli) | [#1513](https://github.com/synfinatic/aws-sso-cli/pull/1513) | Fix device_code login getting no refresh token (sessions end after 8 hours) | 2026-11-06 |
-| 9 | [oxynote](https://github.com/oxynote/oxynote) | [#306](https://github.com/oxynote/oxynote/pull/306) | fix(core): forward the client address and keep 429 from get-session distinct from 401 | 2026-11-06 |
-| 10 | [oxynote](https://github.com/oxynote/oxynote) | [#303](https://github.com/oxynote/oxynote/pull/303) | fix(core): validate document name and icon on create and in MCP tools | 2026-11-06 |
-| 11 | [bindery](https://github.com/vavallee/bindery) | [#3605](https://github.com/vavallee/bindery/pull/3605) | fix(api): look up authors with the library list scope in Add Book and Add Author | 2026-11-06 |
-| 12 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | [#1650](https://github.com/nextlevelbuilder/goclaw/pull/1650) | fix(tools): pass agent context window and max_tokens to media tools via the claude_cli bridge and /v1/tools/invoke (#1649) | 2026-11-06 |
-| 13 | [bindery](https://github.com/vavallee/bindery) | [#3604](https://github.com/vavallee/bindery/pull/3604) | fix(scheduler): refresh nightly recommendations for every account (#3566) | 2026-11-06 |
-| 14 | [semantix](https://github.com/Gnosil/semantix) | [#555](https://github.com/Gnosil/semantix/pull/555) | fix(usage): stop charging L3 reuse cache-hit tokens as paid cost (Issue #548) | 2026-11-05 |
-| 15 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1104](https://github.com/Starosdev/scrutiny/pull/1104) | refactor(reports): use AttributeEvaluatedValue for ATA alert values | 2026-11-05 |
-| 16 | [comin](https://github.com/nlewo/comin) | [#225](https://github.com/nlewo/comin/pull/225) | repository: fix the testing branch error message | 2026-11-05 |
-| 17 | [kine](https://github.com/k3s-io/kine) | [#822](https://github.com/k3s-io/kine/pull/822) | Fix watch forwarder goroutine leak when consumer stops reading | 2026-11-05 |
-| 18 | [lakeFS](https://github.com/treeverse/lakeFS) | [#10592](https://github.com/treeverse/lakeFS/pull/10592) | Fix cherry-pick changing the source commit's metadata | 2026-11-05 |
-| 19 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1611](https://github.com/containers/kubernetes-mcp-server/pull/1611) | docs(config): explain which values belong in Secrets, not ConfigMaps | 2026-11-05 |
-| 20 | [cozy-stack](https://github.com/linagora/cozy-stack) | [#5172](https://github.com/linagora/cozy-stack/pull/5172) | fix(csp): Match the directive name only at the start of a directive in AppendCSPRule | 2026-11-04 |
-| 21 | [replication-manager](https://github.com/signal18/replication-manager) | [#2311](https://github.com/signal18/replication-manager/pull/2311) | fix(crypto): Decrypt returns an error for a hash_ value that is not a ciphertext (#2308) | 2026-11-04 |
-| 22 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3894](https://github.com/opencloud-eu/opencloud/pull/3894) | fix(proxy): answer 403 instead of 500 when the role claim is missing | 2026-11-04 |
-| 23 | [devlake](https://github.com/apache/devlake) | [#9324](https://github.com/apache/devlake/pull/9324) | fix(jira): send startAt and maxResults when collecting worklogs | 2026-11-04 |
-| 24 | [replication-manager](https://github.com/signal18/replication-manager) | [#2302](https://github.com/signal18/replication-manager/pull/2302) | fix(cluster): CheckPrivileges looks up the replication user for ERR00007 (#2245) | 2026-11-04 |
-| 25 | [dagu](https://github.com/dagucloud/dagu) | [#3503](https://github.com/dagucloud/dagu/pull/3503) | Pin a mail server certificate by SHA-256 with tls_cert_sha256 | 2026-11-04 |
-| 26 | [replication-manager](https://github.com/signal18/replication-manager) | [#2301](https://github.com/signal18/replication-manager/pull/2301) | Logical reseed, mydumper and flashback dumps stay local when listed in scheduler-jobs-exec-remote (#2116) | 2026-11-04 |
-| 27 | [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [#2160](https://github.com/kubernetes-sigs/agent-sandbox/pull/2160) | examples: remove the default HF token from the JupyterLab example | 2026-11-04 |
-| 28 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2719](https://github.com/trpc-group/trpc-agent-go/pull/2719) | examples/skill: pin openai-whisper in the whisper skill install command | 2026-11-04 |
-| 29 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1086](https://github.com/Starosdev/scrutiny/pull/1086) | fix(notify): compare evaluated value for repeat-only-on-change notifications | 2026-11-04 |
-| 30 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1085](https://github.com/Starosdev/scrutiny/pull/1085) | fix(reports): show attribute name, value and threshold in alert lines | 2026-11-04 |
-| 31 | [sablier](https://github.com/sablierapp/sablier) | [#1277](https://github.com/sablierapp/sablier/pull/1277) | fix(api): stop listing registered groups in the group-not-found response | 2026-11-04 |
-| 32 | [ongrid](https://github.com/ongridio/ongrid) | [#574](https://github.com/ongridio/ongrid/pull/574) | fix(setting): keep whitespace in Loki/Tempo basic-auth passwords end to end | 2026-11-04 |
-| 33 | [oxynote](https://github.com/oxynote/oxynote) | [#288](https://github.com/oxynote/oxynote/pull/288) | fix(core): answer 401 when a Slack request signature is missing, wrong or expired | 2026-11-03 |
-| 34 | [oxynote](https://github.com/oxynote/oxynote) | [#287](https://github.com/oxynote/oxynote/pull/287) | fix(core): trim variable and group names and limit their length | 2026-11-03 |
-| 35 | [cozy-stack](https://github.com/linagora/cozy-stack) | [#5152](https://github.com/linagora/cozy-stack/pull/5152) | fix(note): return an error for table markers outside a table | 2026-11-03 |
-| 36 | [ongrid](https://github.com/ongridio/ongrid) | [#573](https://github.com/ongridio/ongrid/pull/573) | fix(aiops): cut query_knowledge previews on a rune boundary | 2026-11-03 |
-| 37 | [cozy-stack](https://github.com/linagora/cozy-stack) | [#5143](https://github.com/linagora/cozy-stack/pull/5143) | fix(jsonapi): Reject non-positive page[limit] | 2026-11-02 |
-| 38 | [dagu](https://github.com/dagucloud/dagu) | [#3480](https://github.com/dagucloud/dagu/pull/3480) | fix(browser): tell unlabeled table inputs apart by column header | 2026-11-02 |
-| 39 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-28 |
-| 40 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-26 |
-| 41 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-26 |
-| 42 | [stackql](https://github.com/stackql/stackql) | [#870](https://github.com/stackql/stackql/pull/870) | intrinsic: keep iac state directories under an operator root | 2026-10-24 |
-| 43 | [ongrid](https://github.com/ongridio/ongrid) | [#536](https://github.com/ongridio/ongrid/pull/536) | fix(frontierbound): fail closed when an edge has no transport binding | 2026-10-22 |
-| 44 | [dagu](https://github.com/dagucloud/dagu) | [#3255](https://github.com/dagucloud/dagu/pull/3255) | Allow while and until repeat without a condition | 2026-10-21 |
-| 45 | [zeroid](https://github.com/highflame-ai/zeroid) | [#450](https://github.com/highflame-ai/zeroid/pull/450) | fix: scope OAuth client admin routes to the caller's tenant | 2026-10-21 |
-| 46 | [dagu](https://github.com/dagucloud/dagu) | [#3230](https://github.com/dagucloud/dagu/pull/3230) | fix: keep npm and npx shims working for symlinked tool binaries | 2026-10-18 |
-| 47 | [ongrid](https://github.com/ongridio/ongrid) | [#525](https://github.com/ongridio/ongrid/pull/525) | fix(aiops): stop hardcoding a 15s tool timeout | 2026-10-17 |
-| 48 | [ongrid](https://github.com/ongridio/ongrid) | [#524](https://github.com/ongridio/ongrid/pull/524) | fix(aiops): make a zero tool timeout mean no deadline | 2026-10-17 |
-| 49 | [dagu](https://github.com/dagucloud/dagu) | [#3219](https://github.com/dagucloud/dagu/pull/3219) | Draw Activity runs as duration bars | 2026-10-17 |
-| 50 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-17 |
-| 51 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-16 |
-| 52 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-16 |
-| 53 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
+| 1 | [lakeFS](https://github.com/treeverse/lakeFS) | [#10590](https://github.com/treeverse/lakeFS/pull/10590) | Fix prepare GC commits crash when fetching a parent commit fails | 2026-11-08 |
+| 2 | [dockerfmt](https://github.com/reteps/dockerfmt) | [#75](https://github.com/reteps/dockerfmt/pull/75) | fix(format): escape quotes and backslashes when converting MAINTAINER to LABEL | 2026-11-07 |
+| 3 | [dockerfmt](https://github.com/reteps/dockerfmt) | [#74](https://github.com/reteps/dockerfmt/pull/74) | fix(env): quote legacy ENV values that contain spaces | 2026-11-07 |
+| 4 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2192](https://github.com/chenhg5/cc-connect/pull/2192) | fix(claudecode): read session transcript lines over 256KB in /list and /history | 2026-11-07 |
+| 5 | [adk-go](https://github.com/google/adk-go) | [#2115](https://github.com/google/adk-go/pull/2115) | fix(mcptoolset): let a CommandTransport reconnect | 2026-11-07 |
+| 6 | [crowdsec-bouncer-traefik-plugin](https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin) | [#422](https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pull/422) | 🐛 return 429 instead of 403 for AppSec RateLimit() blocks | 2026-11-06 |
+| 7 | [sipexer](https://github.com/miconda/sipexer) | [#64](https://github.com/miconda/sipexer/pull/64) | sipexer.go: follow RFC 3261 retransmission timers over udp | 2026-11-06 |
+| 8 | [vacuum](https://github.com/daveshanley/vacuum) | [#1040](https://github.com/daveshanley/vacuum/pull/1040) | fix: let a severity shorthand enable a rule turned off by extends | 2026-11-06 |
+| 9 | [aws-sso-cli](https://github.com/synfinatic/aws-sso-cli) | [#1513](https://github.com/synfinatic/aws-sso-cli/pull/1513) | Fix device_code login getting no refresh token (sessions end after 8 hours) | 2026-11-06 |
+| 10 | [oxynote](https://github.com/oxynote/oxynote) | [#306](https://github.com/oxynote/oxynote/pull/306) | fix(core): forward the client address and keep 429 from get-session distinct from 401 | 2026-11-06 |
+| 11 | [oxynote](https://github.com/oxynote/oxynote) | [#303](https://github.com/oxynote/oxynote/pull/303) | fix(core): validate document name and icon on create and in MCP tools | 2026-11-06 |
+| 12 | [bindery](https://github.com/vavallee/bindery) | [#3605](https://github.com/vavallee/bindery/pull/3605) | fix(api): look up authors with the library list scope in Add Book and Add Author | 2026-11-06 |
+| 13 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | [#1650](https://github.com/nextlevelbuilder/goclaw/pull/1650) | fix(tools): pass agent context window and max_tokens to media tools via the claude_cli bridge and /v1/tools/invoke (#1649) | 2026-11-06 |
+| 14 | [bindery](https://github.com/vavallee/bindery) | [#3604](https://github.com/vavallee/bindery/pull/3604) | fix(scheduler): refresh nightly recommendations for every account (#3566) | 2026-11-06 |
+| 15 | [semantix](https://github.com/Gnosil/semantix) | [#555](https://github.com/Gnosil/semantix/pull/555) | fix(usage): stop charging L3 reuse cache-hit tokens as paid cost (Issue #548) | 2026-11-05 |
+| 16 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1104](https://github.com/Starosdev/scrutiny/pull/1104) | refactor(reports): use AttributeEvaluatedValue for ATA alert values | 2026-11-05 |
+| 17 | [comin](https://github.com/nlewo/comin) | [#225](https://github.com/nlewo/comin/pull/225) | repository: fix the testing branch error message | 2026-11-05 |
+| 18 | [kine](https://github.com/k3s-io/kine) | [#822](https://github.com/k3s-io/kine/pull/822) | Fix watch forwarder goroutine leak when consumer stops reading | 2026-11-05 |
+| 19 | [lakeFS](https://github.com/treeverse/lakeFS) | [#10592](https://github.com/treeverse/lakeFS/pull/10592) | Fix cherry-pick changing the source commit's metadata | 2026-11-05 |
+| 20 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1611](https://github.com/containers/kubernetes-mcp-server/pull/1611) | docs(config): explain which values belong in Secrets, not ConfigMaps | 2026-11-05 |
+| 21 | [cozy-stack](https://github.com/linagora/cozy-stack) | [#5172](https://github.com/linagora/cozy-stack/pull/5172) | fix(csp): Match the directive name only at the start of a directive in AppendCSPRule | 2026-11-04 |
+| 22 | [replication-manager](https://github.com/signal18/replication-manager) | [#2311](https://github.com/signal18/replication-manager/pull/2311) | fix(crypto): Decrypt returns an error for a hash_ value that is not a ciphertext (#2308) | 2026-11-04 |
+| 23 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3894](https://github.com/opencloud-eu/opencloud/pull/3894) | fix(proxy): answer 403 instead of 500 when the role claim is missing | 2026-11-04 |
+| 24 | [devlake](https://github.com/apache/devlake) | [#9324](https://github.com/apache/devlake/pull/9324) | fix(jira): send startAt and maxResults when collecting worklogs | 2026-11-04 |
+| 25 | [replication-manager](https://github.com/signal18/replication-manager) | [#2302](https://github.com/signal18/replication-manager/pull/2302) | fix(cluster): CheckPrivileges looks up the replication user for ERR00007 (#2245) | 2026-11-04 |
+| 26 | [dagu](https://github.com/dagucloud/dagu) | [#3503](https://github.com/dagucloud/dagu/pull/3503) | Pin a mail server certificate by SHA-256 with tls_cert_sha256 | 2026-11-04 |
+| 27 | [replication-manager](https://github.com/signal18/replication-manager) | [#2301](https://github.com/signal18/replication-manager/pull/2301) | Logical reseed, mydumper and flashback dumps stay local when listed in scheduler-jobs-exec-remote (#2116) | 2026-11-04 |
+| 28 | [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [#2160](https://github.com/kubernetes-sigs/agent-sandbox/pull/2160) | examples: remove the default HF token from the JupyterLab example | 2026-11-04 |
+| 29 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | [#2719](https://github.com/trpc-group/trpc-agent-go/pull/2719) | examples/skill: pin openai-whisper in the whisper skill install command | 2026-11-04 |
+| 30 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1086](https://github.com/Starosdev/scrutiny/pull/1086) | fix(notify): compare evaluated value for repeat-only-on-change notifications | 2026-11-04 |
+| 31 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1085](https://github.com/Starosdev/scrutiny/pull/1085) | fix(reports): show attribute name, value and threshold in alert lines | 2026-11-04 |
+| 32 | [sablier](https://github.com/sablierapp/sablier) | [#1277](https://github.com/sablierapp/sablier/pull/1277) | fix(api): stop listing registered groups in the group-not-found response | 2026-11-04 |
+| 33 | [ongrid](https://github.com/ongridio/ongrid) | [#574](https://github.com/ongridio/ongrid/pull/574) | fix(setting): keep whitespace in Loki/Tempo basic-auth passwords end to end | 2026-11-04 |
+| 34 | [oxynote](https://github.com/oxynote/oxynote) | [#288](https://github.com/oxynote/oxynote/pull/288) | fix(core): answer 401 when a Slack request signature is missing, wrong or expired | 2026-11-03 |
+| 35 | [oxynote](https://github.com/oxynote/oxynote) | [#287](https://github.com/oxynote/oxynote/pull/287) | fix(core): trim variable and group names and limit their length | 2026-11-03 |
+| 36 | [cozy-stack](https://github.com/linagora/cozy-stack) | [#5152](https://github.com/linagora/cozy-stack/pull/5152) | fix(note): return an error for table markers outside a table | 2026-11-03 |
+| 37 | [ongrid](https://github.com/ongridio/ongrid) | [#573](https://github.com/ongridio/ongrid/pull/573) | fix(aiops): cut query_knowledge previews on a rune boundary | 2026-11-03 |
+| 38 | [cozy-stack](https://github.com/linagora/cozy-stack) | [#5143](https://github.com/linagora/cozy-stack/pull/5143) | fix(jsonapi): Reject non-positive page[limit] | 2026-11-02 |
+| 39 | [dagu](https://github.com/dagucloud/dagu) | [#3480](https://github.com/dagucloud/dagu/pull/3480) | fix(browser): tell unlabeled table inputs apart by column header | 2026-11-02 |
+| 40 | [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | [#2272](https://github.com/flipped-aurora/gin-vue-admin/pull/2272) | fix(web): 通过 packageManager 固定 pnpm 版本，修复 Docker 构建失败 | 2026-10-28 |
+| 41 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1511](https://github.com/containers/kubernetes-mcp-server/pull/1511) | test: move unique tool and prompt tests to pkg/mcp | 2026-10-26 |
+| 42 | [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [#1502](https://github.com/containers/kubernetes-mcp-server/pull/1502) | Added a metric that tracks in-flight MCP requests | 2026-10-26 |
+| 43 | [stackql](https://github.com/stackql/stackql) | [#870](https://github.com/stackql/stackql/pull/870) | intrinsic: keep iac state directories under an operator root | 2026-10-24 |
+| 44 | [ongrid](https://github.com/ongridio/ongrid) | [#536](https://github.com/ongridio/ongrid/pull/536) | fix(frontierbound): fail closed when an edge has no transport binding | 2026-10-22 |
+| 45 | [dagu](https://github.com/dagucloud/dagu) | [#3255](https://github.com/dagucloud/dagu/pull/3255) | Allow while and until repeat without a condition | 2026-10-21 |
+| 46 | [zeroid](https://github.com/highflame-ai/zeroid) | [#450](https://github.com/highflame-ai/zeroid/pull/450) | fix: scope OAuth client admin routes to the caller's tenant | 2026-10-21 |
+| 47 | [dagu](https://github.com/dagucloud/dagu) | [#3230](https://github.com/dagucloud/dagu/pull/3230) | fix: keep npm and npx shims working for symlinked tool binaries | 2026-10-18 |
+| 48 | [ongrid](https://github.com/ongridio/ongrid) | [#525](https://github.com/ongridio/ongrid/pull/525) | fix(aiops): stop hardcoding a 15s tool timeout | 2026-10-17 |
+| 49 | [ongrid](https://github.com/ongridio/ongrid) | [#524](https://github.com/ongridio/ongrid/pull/524) | fix(aiops): make a zero tool timeout mean no deadline | 2026-10-17 |
+| 50 | [dagu](https://github.com/dagucloud/dagu) | [#3219](https://github.com/dagucloud/dagu/pull/3219) | Draw Activity runs as duration bars | 2026-10-17 |
+| 51 | [nginx-ui](https://github.com/0xJacky/nginx-ui) | [#2025](https://github.com/0xJacky/nginx-ui/pull/2025) | fix(site): keep extra locations when staging a pending TLS server | 2026-10-17 |
+| 52 | [dagu](https://github.com/dagucloud/dagu) | [#3185](https://github.com/dagucloud/dagu/pull/3185) | Fixed the dirlock so only one contender can take over a stale lock | 2026-10-16 |
+| 53 | [orloj](https://github.com/OrlojHQ/orloj) | [#179](https://github.com/OrlojHQ/orloj/pull/179) | Added a built-in durable Postgres audit sink | 2026-10-16 |
+| 54 | [stackql](https://github.com/stackql/stackql) | [#847](https://github.com/stackql/stackql/pull/847) | Added unit tests for the `sqlrewrite` package | 2026-10-15 |
 
 </details>
 
 <details>
-<summary><b>Opened PRs (Last 1 Year)</b> (79)</summary>
+<summary><b>Opened PRs (Last 1 Year)</b> (81)</summary>
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
-| 1 | [dagu](https://github.com/dagucloud/dagu) | [#3602](https://github.com/dagucloud/dagu/pull/3602) | Add --where, --merged, --trim and --formulas to dagu xlsx read | 2026-11-07 |
-| 2 | [erigon](https://github.com/erigontech/erigon) | [#25745](https://github.com/erigontech/erigon/pull/25745) | rpc/jsonrpc: return [] instead of null from debug_getModifiedAccountsBy* when no account changed | 2026-11-07 |
-| 3 | [k8up](https://github.com/k8up-io/k8up) | [#1294](https://github.com/k8up-io/k8up/pull/1294) | Buffer backupCommand output so a slow restic start does not drop the exec stream | 2026-11-07 |
-| 4 | [dbxcli](https://github.com/dropbox/dbxcli) | [#396](https://github.com/dropbox/dbxcli/pull/396) | Fix share-link folder download when the folder is not in the caller's Dropbox | 2026-11-06 |
-| 5 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#111](https://github.com/coollabsio/coolify-cli/pull/111) | fix(app): base64-encode --dockerfile before sending it to the API | 2026-11-06 |
-| 6 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#110](https://github.com/coollabsio/coolify-cli/pull/110) | fix(app): send --environment-uuid as environment_uuid in create requests | 2026-11-06 |
-| 7 | [symfony-cli](https://github.com/symfony-cli/symfony-cli) | [#789](https://github.com/symfony-cli/symfony-cli/pull/789) | Fix waiting for pid and log files when the home directory is a symlink | 2026-11-06 |
-| 8 | [deps.dev](https://github.com/google/deps.dev) | [#411](https://github.com/google/deps.dev/pull/411) | examples/skills: fix malformed JSON in the scan-dependencies curl example | 2026-11-06 |
-| 9 | [garm](https://github.com/cloudbase/garm) | [#945](https://github.com/cloudbase/garm/pull/945) | Fix scale set --outdated rotation matching runners created after an update | 2026-11-06 |
-| 10 | [bazel-remote](https://github.com/buchgr/bazel-remote) | [#946](https://github.com/buchgr/bazel-remote/pull/946) | disk: treat a gRPC NotFound from a proxy backend as a cache miss | 2026-11-06 |
-| 11 | [osv-scalibr](https://github.com/google/osv-scalibr) | [#2608](https://github.com/google/osv-scalibr/pull/2608) | Fix os-release fallback to usr/lib/os-release on image layers | 2026-11-06 |
-| 12 | [yay](https://github.com/Jguer/yay) | [#3015](https://github.com/Jguer/yay/pull/3015) | fix(query): don't treat a sync repo named aur as the AUR in search results | 2026-11-06 |
-| 13 | [syft](https://github.com/anchore/syft) | [#5532](https://github.com/anchore/syft/pull/5532) | Fix relative directory scans including sibling packages when the working directory is a symlink | 2026-11-06 |
-| 14 | [sqlc](https://github.com/sqlc-dev/sqlc) | [#4678](https://github.com/sqlc-dev/sqlc/pull/4678) | duckdb: fix unknown column error for the rowid pseudo-column | 2026-11-06 |
-| 15 | [gonka](https://github.com/gonka-ai/gonka) | [#2220](https://github.com/gonka-ai/gonka/pull/2220) | fix(api): reject node ids with characters other than A-Z, a-z, 0-9, - and _ | 2026-11-06 |
-| 16 | [iotex-core](https://github.com/iotexproject/iotex-core) | [#5067](https://github.com/iotexproject/iotex-core/pull/5067) | fix(p2p): stop connectBootNode from blocking when only some bootnodes connect | 2026-11-06 |
-| 17 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#101](https://github.com/tawanorg/claude-sync/pull/101) | fix: ignore drive-letter case when mapping Windows paths | 2026-11-06 |
-| 18 | [prebid-server](https://github.com/prebid/prebid-server) | [#5086](https://github.com/prebid/prebid-server/pull/5086) | Rules Engine Module: Limit number of cached accounts | 2026-11-06 |
-| 19 | [yarr](https://github.com/nkanaev/yarr) | [#349](https://github.com/nkanaev/yarr/pull/349) | parser: detect feed format beyond the first 2 KB | 2026-11-06 |
-| 20 | [copy](https://github.com/otiai10/copy) | [#185](https://github.com/otiai10/copy/pull/185) | fix: refuse to copy a file onto itself instead of truncating it | 2026-11-06 |
-| 21 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [#7476](https://github.com/woodpecker-ci/woodpecker/pull/7476) | Fix docker detached service reported as failed when teardown removes it before wait (incl. Podman 404) | 2026-11-06 |
-| 22 | [steampipe](https://github.com/turbot/steampipe) | [#5084](https://github.com/turbot/steampipe/pull/5084) | Fix plugin manager panic when connection config changes while a plugin is starting | 2026-11-06 |
-| 23 | [oapi-sdk-go](https://github.com/larksuite/oapi-sdk-go) | [#253](https://github.com/larksuite/oapi-sdk-go/pull/253) | fix(channel): normalize flat post content instead of returning a placeholder | 2026-11-05 |
-| 24 | [GenieX](https://github.com/qualcomm/GenieX) | [#1654](https://github.com/qualcomm/GenieX/pull/1654) | fix(server): omit unset fields from non-streaming chat responses | 2026-11-05 |
-| 25 | [osv-scalibr](https://github.com/google/osv-scalibr) | [#2601](https://github.com/google/osv-scalibr/pull/2601) | fix(extractor): put host and owner in the namespace of Swift PURLs | 2026-11-05 |
-| 26 | [stremthru](https://github.com/MunifTanjim/stremthru) | [#620](https://github.com/MunifTanjim/stremthru/pull/620) | fix(store): save not-cached results for torbox, premiumize and debrider checks | 2026-11-05 |
-| 27 | [nextcloud-spreed-signaling](https://github.com/strukturag/nextcloud-spreed-signaling) | [#1400](https://github.com/strukturag/nextcloud-spreed-signaling/pull/1400) | Don't log GRPC unencrypted warnings if GRPC is not used. | 2026-11-05 |
-| 28 | [dagu](https://github.com/dagucloud/dagu) | [#3601](https://github.com/dagucloud/dagu/pull/3601) | Resolve OTel resource attributes with DAG env and secrets | 2026-11-05 |
-| 29 | [conftest](https://github.com/open-policy-agent/conftest) | [#1471](https://github.com/open-policy-agent/conftest/pull/1471) | fix(ignore): do not panic on lines ending in a backslash | 2026-11-05 |
-| 30 | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | [#7276](https://github.com/router-for-me/CLIProxyAPI/pull/7276) | fix(helps): record plugin stream TTFT for Interactions deltas and multi-frame chunks | 2026-11-05 |
-| 31 | [cloudflare-kubernetes-gateway](https://github.com/pl4nty/cloudflare-kubernetes-gateway) | [#430](https://github.com/pl4nty/cloudflare-kubernetes-gateway/pull/430) | fix(controller): keep existing Deployment metadata when updating tunnel Deployment | 2026-11-05 |
-| 32 | [kopia](https://github.com/kopia/kopia) | [#5787](https://github.com/kopia/kopia/pull/5787) | fix(repository): rewrite deleted contents written through the repository server | 2026-11-05 |
-| 33 | [gocsv](https://github.com/gocarina/gocsv) | [#315](https://github.com/gocarina/gocsv/pull/315) | Let callers recover a decoding panic in the UnmarshalToCallback functions | 2026-11-05 |
-| 34 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3902](https://github.com/opencloud-eu/opencloud/pull/3902) | fix(collaboration): reuse the HTTP client for the WOPI discovery fetch | 2026-11-05 |
-| 35 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1103](https://github.com/Starosdev/scrutiny/pull/1103) | fix(reports): tell a zero alert threshold apart from no threshold | 2026-11-05 |
-| 36 | [sablier](https://github.com/sablierapp/sablier) | [#1286](https://github.com/sablierapp/sablier/pull/1286) | fix(docker): do not log or count a stop when the instance needed none | 2026-11-05 |
-| 37 | [dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) | [#1591](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/pull/1591) | fix(sheet): explain how to combine index with other properties in batch update | 2026-11-05 |
-| 38 | [dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) | [#1590](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/pull/1590) | fix(safechat): honour HTTP(S)_PROXY in the SafeChat key client | 2026-11-05 |
-| 39 | [devlake](https://github.com/apache/devlake) | [#9335](https://github.com/apache/devlake/pull/9335) | fix(jira): widen connection token column to text so long tokens are not truncated | 2026-11-05 |
-| 40 | [semaphore](https://github.com/semaphoreui/semaphore) | [#4405](https://github.com/semaphoreui/semaphore/pull/4405) | fix(templates): store an empty template vault name as NULL | 2026-11-05 |
-| 41 | [afero](https://github.com/spf13/afero) | [#717](https://github.com/spf13/afero/pull/717) | Return EPERM from CopyOnWriteFs.RemoveAll for base-only paths | 2026-11-05 |
-| 42 | [afero](https://github.com/spf13/afero) | [#716](https://github.com/spf13/afero/pull/716) | Keep the overlay untouched when an exclusive OpenFile on a base file fails | 2026-11-05 |
-| 43 | [fyne](https://github.com/fyne-io/fyne) | [#6656](https://github.com/fyne-io/fyne/pull/6656) | glfw: don't panic when fyne.Do is called while the app shuts down | 2026-11-05 |
-| 44 | [kube-image-keeper](https://github.com/enix/kube-image-keeper) | [#826](https://github.com/enix/kube-image-keeper/pull/826) | fix(mirroring): wait for the scan interval after an interrupted destination pass | 2026-11-05 |
-| 45 | [gofr](https://github.com/gofr-dev/gofr) | [#4591](https://github.com/gofr-dev/gofr/pull/4591) | fix(auth): reject empty API keys so an empty x-api-key is not accepted | 2026-11-05 |
-| 46 | [gofr](https://github.com/gofr-dev/gofr) | [#4590](https://github.com/gofr-dev/gofr/pull/4590) | fix(elasticsearch): report not connected instead of panicking after a failed Connect | 2026-11-05 |
-| 47 | [beego](https://github.com/beego/beego) | [#5937](https://github.com/beego/beego/pull/5937) | fix(task): don't skip an hour in Schedule.Next after a DST fallback | 2026-11-05 |
-| 48 | [immich-go](https://github.com/simulot/immich-go) | [#1502](https://github.com/simulot/immich-go/pull/1502) | fix(config): report invalid config values even when a later setting is valid | 2026-11-05 |
-| 49 | [sq](https://github.com/neilotoole/sq) | [#1337](https://github.com/neilotoole/sq/pull/1337) | fix(xlsx): fail ingest if the batch inserter finishes before all rows are sent | 2026-11-05 |
-| 50 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2193](https://github.com/chenhg5/cc-connect/pull/2193) | fix(core): add one blank line, not one per event, between quiet-mode text segments | 2026-11-05 |
-| 51 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#100](https://github.com/tawanorg/claude-sync/pull/100) | fix(sync): decide remote change by ETag, not by comparing two clocks | 2026-11-05 |
-| 52 | [tusd](https://github.com/tus/tusd) | [#1415](https://github.com/tus/tusd/pull/1415) | handler: fix data race on request body and lost early interruption | 2026-11-05 |
-| 53 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3895](https://github.com/opencloud-eu/opencloud/pull/3895) | fix(antivirus): treat a clamd ERROR reply as a failed scan | 2026-11-05 |
-| 54 | [bumblebee](https://github.com/perplexityai/bumblebee) | [#91](https://github.com/perplexityai/bumblebee/pull/91) | fix(osv): emit any-version entry when an affected entry also lists versions | 2026-11-05 |
-| 55 | [beego](https://github.com/beego/beego) | [#5936](https://github.com/beego/beego/pull/5936) | fix(web): give the HTTPS listener its own http.Server in normal mode | 2026-11-05 |
-| 56 | [semaphore](https://github.com/semaphoreui/semaphore) | [#4396](https://github.com/semaphoreui/semaphore/pull/4396) | fix(ssh): honor dirs.ssh_agent_sockets for SSH agent sockets | 2026-11-05 |
-| 57 | [lava](https://github.com/lavanet/lava) | [#2344](https://github.com/lavanet/lava/pull/2344) | fix(rpcprovider): make SleepUntilTimeOrConditionReached race-free and stop at the deadline | 2026-11-05 |
-| 58 | [immich-go](https://github.com/simulot/immich-go) | [#1501](https://github.com/simulot/immich-go/pull/1501) | fix(google-takeout): apply sidecar metadata when its title is empty | 2026-11-05 |
-| 59 | [hive](https://github.com/ethereum/hive) | [#1658](https://github.com/ethereum/hive/pull/1658) | internal/libdocker, internal/libhive: keep full container IDs and don't wait on failed removal | 2026-11-05 |
-| 60 | [go2rtc](https://github.com/AlexxIT/go2rtc) | [#2646](https://github.com/AlexxIT/go2rtc/pull/2646) | Fix PTS clock for tapo backchannel audio | 2026-11-05 |
-| 61 | [clickhouse-backup](https://github.com/Altinity/clickhouse-backup) | [#1665](https://github.com/Altinity/clickhouse-backup/pull/1665) | download: don't leave half-extracted parts when a download is interrupted, fix #1633 | 2026-11-05 |
-| 62 | [sensu-go](https://github.com/sensu/sensu-go) | [#5204](https://github.com/sensu/sensu-go/pull/5204) | fix: remove user config subscription when NewSession fails | 2026-11-05 |
-| 63 | [frontier](https://github.com/raystack/frontier) | [#2043](https://github.com/raystack/frontier/pull/2043) | fix(mailer): time out when the SMTP server never sends its greeting | 2026-11-05 |
-| 64 | [sensu-go](https://github.com/sensu/sensu-go) | [#5203](https://github.com/sensu/sensu-go/pull/5203) | fix: close agent connection when agentd fails to create a session | 2026-11-05 |
-| 65 | [go2rtc](https://github.com/AlexxIT/go2rtc) | [#2644](https://github.com/AlexxIT/go2rtc/pull/2644) | xiaomi/legacy: fix Aqara G2 H264 probe panic and camera without audio | 2026-11-05 |
-| 66 | [fleet-telemetry](https://github.com/teslamotors/fleet-telemetry) | [#584](https://github.com/teslamotors/fleet-telemetry/pull/584) | Stop Kafka producer goroutines when the producer is closed | 2026-11-05 |
-| 67 | [kubernetes-ingress](https://github.com/haproxytech/kubernetes-ingress) | [#875](https://github.com/haproxytech/kubernetes-ingress/pull/875) | BUG/MEDIUM: certs: wait for the certificate writers before deciding on a reload | 2026-11-05 |
-| 68 | [clickhouse-backup](https://github.com/Altinity/clickhouse-backup) | [#1664](https://github.com/Altinity/clickhouse-backup/pull/1664) | create: run the first FREEZE serially when shadow/increment.txt doesn't exist | 2026-11-05 |
-| 69 | [super](https://github.com/superdb/super) | [#7597](https://github.com/superdb/super/pull/7597) | fix panic on record literal with untyped optional none field | 2026-11-05 |
-| 70 | [super](https://github.com/superdb/super) | [#7594](https://github.com/superdb/super/pull/7594) | fix panic comparing uint64 values >= 2^63 to signed integers | 2026-11-05 |
-| 71 | [WeKnora](https://github.com/Tencent/WeKnora) | [#5097](https://github.com/Tencent/WeKnora/pull/5097) | fix(knowledge): check parser engine before reparse deletes existing content | 2026-11-05 |
-| 72 | [WeKnora](https://github.com/Tencent/WeKnora) | [#5096](https://github.com/Tencent/WeKnora/pull/5096) | fix(faq): add id tiebreaker to FAQ entry pagination order | 2026-11-05 |
-| 73 | [Paradev](https://github.com/ParadevAI/Paradev) | [#9318](https://github.com/ParadevAI/Paradev/pull/9318) | fix(host-service): list GitHub repositories without repeats when a push lands mid-walk | 2026-11-05 |
-| 74 | [Paradev](https://github.com/ParadevAI/Paradev) | [#9317](https://github.com/ParadevAI/Paradev/pull/9317) | fix(desktop): collapse Pinned and Projects sidebar sections independently | 2026-11-05 |
-| 75 | [zeroid](https://github.com/highflame-ai/zeroid) | [#480](https://github.com/highflame-ai/zeroid/pull/480) | fix(store): a missing binding is not-found, not explicitly disabled | 2026-11-05 |
-| 76 | [zeroid](https://github.com/highflame-ai/zeroid) | [#479](https://github.com/highflame-ai/zeroid/pull/479) | fix(store): attestation policy repo runs on the transaction in ctx | 2026-11-05 |
-| 77 | [pulumi](https://github.com/pulumi/pulumi) | [#25507](https://github.com/pulumi/pulumi/pull/25507) | Return an error instead of panicking for a parented custom resource with an invalid type token | 2026-11-05 |
-| 78 | [lakeFS](https://github.com/treeverse/lakeFS) | [#10590](https://github.com/treeverse/lakeFS/pull/10590) | Fix prepare GC commits crash when fetching a parent commit fails | 2026-11-05 |
-| 79 | [zeroid](https://github.com/highflame-ai/zeroid) | [#475](https://github.com/highflame-ai/zeroid/pull/475) | fix: ignore unknown columns on every scan (WithDiscardUnknownColumns) | 2026-11-05 |
+| 1 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2217](https://github.com/chenhg5/cc-connect/pull/2217) | fix(weixin): strip Markdown and keep line breaks in replies | 2026-11-08 |
+| 2 | [sablier](https://github.com/sablierapp/sablier) | [#1292](https://github.com/sablierapp/sablier/pull/1292) | fix(autostop): skip instances a request is starting in the unregistered scan | 2026-11-08 |
+| 3 | [lakeFS](https://github.com/treeverse/lakeFS) | [#10600](https://github.com/treeverse/lakeFS/pull/10600) | Fix lakectl fs rm -r deleting siblings that share the path prefix | 2026-11-08 |
+| 4 | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | [#7276](https://github.com/router-for-me/CLIProxyAPI/pull/7276) | fix(helps): record plugin stream TTFT for Interactions deltas and multi-frame chunks | 2026-11-08 |
+| 5 | [dagu](https://github.com/dagucloud/dagu) | [#3602](https://github.com/dagucloud/dagu/pull/3602) | Add --where, --merged, --trim and --formulas to dagu xlsx read | 2026-11-07 |
+| 6 | [erigon](https://github.com/erigontech/erigon) | [#25745](https://github.com/erigontech/erigon/pull/25745) | rpc/jsonrpc: return [] instead of null from debug_getModifiedAccountsBy* when no account changed | 2026-11-07 |
+| 7 | [k8up](https://github.com/k8up-io/k8up) | [#1294](https://github.com/k8up-io/k8up/pull/1294) | Buffer backupCommand output so a slow restic start does not drop the exec stream | 2026-11-07 |
+| 8 | [dbxcli](https://github.com/dropbox/dbxcli) | [#396](https://github.com/dropbox/dbxcli/pull/396) | Fix share-link folder download when the folder is not in the caller's Dropbox | 2026-11-06 |
+| 9 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#111](https://github.com/coollabsio/coolify-cli/pull/111) | fix(app): base64-encode --dockerfile before sending it to the API | 2026-11-06 |
+| 10 | [coolify-cli](https://github.com/coollabsio/coolify-cli) | [#110](https://github.com/coollabsio/coolify-cli/pull/110) | fix(app): send --environment-uuid as environment_uuid in create requests | 2026-11-06 |
+| 11 | [symfony-cli](https://github.com/symfony-cli/symfony-cli) | [#789](https://github.com/symfony-cli/symfony-cli/pull/789) | Fix waiting for pid and log files when the home directory is a symlink | 2026-11-06 |
+| 12 | [deps.dev](https://github.com/google/deps.dev) | [#411](https://github.com/google/deps.dev/pull/411) | examples/skills: fix malformed JSON in the scan-dependencies curl example | 2026-11-06 |
+| 13 | [garm](https://github.com/cloudbase/garm) | [#945](https://github.com/cloudbase/garm/pull/945) | Fix scale set --outdated rotation matching runners created after an update | 2026-11-06 |
+| 14 | [bazel-remote](https://github.com/buchgr/bazel-remote) | [#946](https://github.com/buchgr/bazel-remote/pull/946) | disk: treat a gRPC NotFound from a proxy backend as a cache miss | 2026-11-06 |
+| 15 | [osv-scalibr](https://github.com/google/osv-scalibr) | [#2608](https://github.com/google/osv-scalibr/pull/2608) | Fix os-release fallback to usr/lib/os-release on image layers | 2026-11-06 |
+| 16 | [yay](https://github.com/Jguer/yay) | [#3015](https://github.com/Jguer/yay/pull/3015) | fix(query): don't treat a sync repo named aur as the AUR in search results | 2026-11-06 |
+| 17 | [syft](https://github.com/anchore/syft) | [#5532](https://github.com/anchore/syft/pull/5532) | Fix relative directory scans including sibling packages when the working directory is a symlink | 2026-11-06 |
+| 18 | [sqlc](https://github.com/sqlc-dev/sqlc) | [#4678](https://github.com/sqlc-dev/sqlc/pull/4678) | duckdb: fix unknown column error for the rowid pseudo-column | 2026-11-06 |
+| 19 | [gonka](https://github.com/gonka-ai/gonka) | [#2220](https://github.com/gonka-ai/gonka/pull/2220) | fix(api): reject node ids with characters other than A-Z, a-z, 0-9, - and _ | 2026-11-06 |
+| 20 | [iotex-core](https://github.com/iotexproject/iotex-core) | [#5067](https://github.com/iotexproject/iotex-core/pull/5067) | fix(p2p): stop connectBootNode from blocking when only some bootnodes connect | 2026-11-06 |
+| 21 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#101](https://github.com/tawanorg/claude-sync/pull/101) | fix: ignore drive-letter case when mapping Windows paths | 2026-11-06 |
+| 22 | [prebid-server](https://github.com/prebid/prebid-server) | [#5086](https://github.com/prebid/prebid-server/pull/5086) | Rules Engine Module: Limit number of cached accounts | 2026-11-06 |
+| 23 | [yarr](https://github.com/nkanaev/yarr) | [#349](https://github.com/nkanaev/yarr/pull/349) | parser: detect feed format beyond the first 2 KB | 2026-11-06 |
+| 24 | [copy](https://github.com/otiai10/copy) | [#185](https://github.com/otiai10/copy/pull/185) | fix: refuse to copy a file onto itself instead of truncating it | 2026-11-06 |
+| 25 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [#7476](https://github.com/woodpecker-ci/woodpecker/pull/7476) | Fix docker detached service reported as failed when teardown removes it before wait (incl. Podman 404) | 2026-11-06 |
+| 26 | [steampipe](https://github.com/turbot/steampipe) | [#5084](https://github.com/turbot/steampipe/pull/5084) | Fix plugin manager panic when connection config changes while a plugin is starting | 2026-11-06 |
+| 27 | [oapi-sdk-go](https://github.com/larksuite/oapi-sdk-go) | [#253](https://github.com/larksuite/oapi-sdk-go/pull/253) | fix(channel): normalize flat post content instead of returning a placeholder | 2026-11-05 |
+| 28 | [GenieX](https://github.com/qualcomm/GenieX) | [#1654](https://github.com/qualcomm/GenieX/pull/1654) | fix(server): omit unset fields from non-streaming chat responses | 2026-11-05 |
+| 29 | [osv-scalibr](https://github.com/google/osv-scalibr) | [#2601](https://github.com/google/osv-scalibr/pull/2601) | fix(extractor): put host and owner in the namespace of Swift PURLs | 2026-11-05 |
+| 30 | [stremthru](https://github.com/MunifTanjim/stremthru) | [#620](https://github.com/MunifTanjim/stremthru/pull/620) | fix(store): save not-cached results for torbox, premiumize and debrider checks | 2026-11-05 |
+| 31 | [nextcloud-spreed-signaling](https://github.com/strukturag/nextcloud-spreed-signaling) | [#1400](https://github.com/strukturag/nextcloud-spreed-signaling/pull/1400) | Don't log GRPC unencrypted warnings if GRPC is not used. | 2026-11-05 |
+| 32 | [dagu](https://github.com/dagucloud/dagu) | [#3601](https://github.com/dagucloud/dagu/pull/3601) | Resolve OTel resource attributes with DAG env and secrets | 2026-11-05 |
+| 33 | [conftest](https://github.com/open-policy-agent/conftest) | [#1471](https://github.com/open-policy-agent/conftest/pull/1471) | fix(ignore): do not panic on lines ending in a backslash | 2026-11-05 |
+| 34 | [cloudflare-kubernetes-gateway](https://github.com/pl4nty/cloudflare-kubernetes-gateway) | [#430](https://github.com/pl4nty/cloudflare-kubernetes-gateway/pull/430) | fix(controller): keep existing Deployment metadata when updating tunnel Deployment | 2026-11-05 |
+| 35 | [kopia](https://github.com/kopia/kopia) | [#5787](https://github.com/kopia/kopia/pull/5787) | fix(repository): rewrite deleted contents written through the repository server | 2026-11-05 |
+| 36 | [gocsv](https://github.com/gocarina/gocsv) | [#315](https://github.com/gocarina/gocsv/pull/315) | Let callers recover a decoding panic in the UnmarshalToCallback functions | 2026-11-05 |
+| 37 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3902](https://github.com/opencloud-eu/opencloud/pull/3902) | fix(collaboration): reuse the HTTP client for the WOPI discovery fetch | 2026-11-05 |
+| 38 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1103](https://github.com/Starosdev/scrutiny/pull/1103) | fix(reports): tell a zero alert threshold apart from no threshold | 2026-11-05 |
+| 39 | [sablier](https://github.com/sablierapp/sablier) | [#1286](https://github.com/sablierapp/sablier/pull/1286) | fix(docker): do not log or count a stop when the instance needed none | 2026-11-05 |
+| 40 | [dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) | [#1591](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/pull/1591) | fix(sheet): explain how to combine index with other properties in batch update | 2026-11-05 |
+| 41 | [dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) | [#1590](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/pull/1590) | fix(safechat): honour HTTP(S)_PROXY in the SafeChat key client | 2026-11-05 |
+| 42 | [devlake](https://github.com/apache/devlake) | [#9335](https://github.com/apache/devlake/pull/9335) | fix(jira): widen connection token column to text so long tokens are not truncated | 2026-11-05 |
+| 43 | [semaphore](https://github.com/semaphoreui/semaphore) | [#4405](https://github.com/semaphoreui/semaphore/pull/4405) | fix(templates): store an empty template vault name as NULL | 2026-11-05 |
+| 44 | [afero](https://github.com/spf13/afero) | [#717](https://github.com/spf13/afero/pull/717) | Return EPERM from CopyOnWriteFs.RemoveAll for base-only paths | 2026-11-05 |
+| 45 | [afero](https://github.com/spf13/afero) | [#716](https://github.com/spf13/afero/pull/716) | Keep the overlay untouched when an exclusive OpenFile on a base file fails | 2026-11-05 |
+| 46 | [fyne](https://github.com/fyne-io/fyne) | [#6656](https://github.com/fyne-io/fyne/pull/6656) | glfw: don't panic when fyne.Do is called while the app shuts down | 2026-11-05 |
+| 47 | [kube-image-keeper](https://github.com/enix/kube-image-keeper) | [#826](https://github.com/enix/kube-image-keeper/pull/826) | fix(mirroring): wait for the scan interval after an interrupted destination pass | 2026-11-05 |
+| 48 | [gofr](https://github.com/gofr-dev/gofr) | [#4591](https://github.com/gofr-dev/gofr/pull/4591) | fix(auth): reject empty API keys so an empty x-api-key is not accepted | 2026-11-05 |
+| 49 | [gofr](https://github.com/gofr-dev/gofr) | [#4590](https://github.com/gofr-dev/gofr/pull/4590) | fix(elasticsearch): report not connected instead of panicking after a failed Connect | 2026-11-05 |
+| 50 | [beego](https://github.com/beego/beego) | [#5937](https://github.com/beego/beego/pull/5937) | fix(task): don't skip an hour in Schedule.Next after a DST fallback | 2026-11-05 |
+| 51 | [immich-go](https://github.com/simulot/immich-go) | [#1502](https://github.com/simulot/immich-go/pull/1502) | fix(config): report invalid config values even when a later setting is valid | 2026-11-05 |
+| 52 | [sq](https://github.com/neilotoole/sq) | [#1337](https://github.com/neilotoole/sq/pull/1337) | fix(xlsx): fail ingest if the batch inserter finishes before all rows are sent | 2026-11-05 |
+| 53 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2193](https://github.com/chenhg5/cc-connect/pull/2193) | fix(core): add one blank line, not one per event, between quiet-mode text segments | 2026-11-05 |
+| 54 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#100](https://github.com/tawanorg/claude-sync/pull/100) | fix(sync): decide remote change by ETag, not by comparing two clocks | 2026-11-05 |
+| 55 | [tusd](https://github.com/tus/tusd) | [#1415](https://github.com/tus/tusd/pull/1415) | handler: fix data race on request body and lost early interruption | 2026-11-05 |
+| 56 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3895](https://github.com/opencloud-eu/opencloud/pull/3895) | fix(antivirus): treat a clamd ERROR reply as a failed scan | 2026-11-05 |
+| 57 | [bumblebee](https://github.com/perplexityai/bumblebee) | [#91](https://github.com/perplexityai/bumblebee/pull/91) | fix(osv): emit any-version entry when an affected entry also lists versions | 2026-11-05 |
+| 58 | [beego](https://github.com/beego/beego) | [#5936](https://github.com/beego/beego/pull/5936) | fix(web): give the HTTPS listener its own http.Server in normal mode | 2026-11-05 |
+| 59 | [semaphore](https://github.com/semaphoreui/semaphore) | [#4396](https://github.com/semaphoreui/semaphore/pull/4396) | fix(ssh): honor dirs.ssh_agent_sockets for SSH agent sockets | 2026-11-05 |
+| 60 | [lava](https://github.com/lavanet/lava) | [#2344](https://github.com/lavanet/lava/pull/2344) | fix(rpcprovider): make SleepUntilTimeOrConditionReached race-free and stop at the deadline | 2026-11-05 |
+| 61 | [immich-go](https://github.com/simulot/immich-go) | [#1501](https://github.com/simulot/immich-go/pull/1501) | fix(google-takeout): apply sidecar metadata when its title is empty | 2026-11-05 |
+| 62 | [hive](https://github.com/ethereum/hive) | [#1658](https://github.com/ethereum/hive/pull/1658) | internal/libdocker, internal/libhive: keep full container IDs and don't wait on failed removal | 2026-11-05 |
+| 63 | [go2rtc](https://github.com/AlexxIT/go2rtc) | [#2646](https://github.com/AlexxIT/go2rtc/pull/2646) | Fix PTS clock for tapo backchannel audio | 2026-11-05 |
+| 64 | [clickhouse-backup](https://github.com/Altinity/clickhouse-backup) | [#1665](https://github.com/Altinity/clickhouse-backup/pull/1665) | download: don't leave half-extracted parts when a download is interrupted, fix #1633 | 2026-11-05 |
+| 65 | [sensu-go](https://github.com/sensu/sensu-go) | [#5204](https://github.com/sensu/sensu-go/pull/5204) | fix: remove user config subscription when NewSession fails | 2026-11-05 |
+| 66 | [frontier](https://github.com/raystack/frontier) | [#2043](https://github.com/raystack/frontier/pull/2043) | fix(mailer): time out when the SMTP server never sends its greeting | 2026-11-05 |
+| 67 | [sensu-go](https://github.com/sensu/sensu-go) | [#5203](https://github.com/sensu/sensu-go/pull/5203) | fix: close agent connection when agentd fails to create a session | 2026-11-05 |
+| 68 | [go2rtc](https://github.com/AlexxIT/go2rtc) | [#2644](https://github.com/AlexxIT/go2rtc/pull/2644) | xiaomi/legacy: fix Aqara G2 H264 probe panic and camera without audio | 2026-11-05 |
+| 69 | [fleet-telemetry](https://github.com/teslamotors/fleet-telemetry) | [#584](https://github.com/teslamotors/fleet-telemetry/pull/584) | Stop Kafka producer goroutines when the producer is closed | 2026-11-05 |
+| 70 | [kubernetes-ingress](https://github.com/haproxytech/kubernetes-ingress) | [#875](https://github.com/haproxytech/kubernetes-ingress/pull/875) | BUG/MEDIUM: certs: wait for the certificate writers before deciding on a reload | 2026-11-05 |
+| 71 | [clickhouse-backup](https://github.com/Altinity/clickhouse-backup) | [#1664](https://github.com/Altinity/clickhouse-backup/pull/1664) | create: run the first FREEZE serially when shadow/increment.txt doesn't exist | 2026-11-05 |
+| 72 | [super](https://github.com/superdb/super) | [#7597](https://github.com/superdb/super/pull/7597) | fix panic on record literal with untyped optional none field | 2026-11-05 |
+| 73 | [super](https://github.com/superdb/super) | [#7594](https://github.com/superdb/super/pull/7594) | fix panic comparing uint64 values >= 2^63 to signed integers | 2026-11-05 |
+| 74 | [WeKnora](https://github.com/Tencent/WeKnora) | [#5097](https://github.com/Tencent/WeKnora/pull/5097) | fix(knowledge): check parser engine before reparse deletes existing content | 2026-11-05 |
+| 75 | [WeKnora](https://github.com/Tencent/WeKnora) | [#5096](https://github.com/Tencent/WeKnora/pull/5096) | fix(faq): add id tiebreaker to FAQ entry pagination order | 2026-11-05 |
+| 76 | [Paradev](https://github.com/ParadevAI/Paradev) | [#9318](https://github.com/ParadevAI/Paradev/pull/9318) | fix(host-service): list GitHub repositories without repeats when a push lands mid-walk | 2026-11-05 |
+| 77 | [Paradev](https://github.com/ParadevAI/Paradev) | [#9317](https://github.com/ParadevAI/Paradev/pull/9317) | fix(desktop): collapse Pinned and Projects sidebar sections independently | 2026-11-05 |
+| 78 | [zeroid](https://github.com/highflame-ai/zeroid) | [#480](https://github.com/highflame-ai/zeroid/pull/480) | fix(store): a missing binding is not-found, not explicitly disabled | 2026-11-05 |
+| 79 | [zeroid](https://github.com/highflame-ai/zeroid) | [#479](https://github.com/highflame-ai/zeroid/pull/479) | fix(store): attestation policy repo runs on the transaction in ctx | 2026-11-05 |
+| 80 | [pulumi](https://github.com/pulumi/pulumi) | [#25507](https://github.com/pulumi/pulumi/pull/25507) | Return an error instead of panicking for a parented custom resource with an invalid type token | 2026-11-05 |
+| 81 | [zeroid](https://github.com/highflame-ai/zeroid) | [#475](https://github.com/highflame-ai/zeroid/pull/475) | fix: ignore unknown columns on every scan (WithDiscardUnknownColumns) | 2026-11-05 |
 
 </details>
 
