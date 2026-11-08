@@ -162,32 +162,15 @@
 </details>
 
 <details>
-<summary><b>Opened PRs (Last 1 Year)</b> (22)</summary>
+<summary><b>Opened PRs (Last 1 Year)</b> (5)</summary>
 
 | No | Project | My Opened PR | Description | Last Update |
 |---|---|---|---|---|
 | 1 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2217](https://github.com/chenhg5/cc-connect/pull/2217) | fix(weixin): strip Markdown and keep line breaks in replies | 2026-11-08 |
-| 2 | [erigon](https://github.com/erigontech/erigon) | [#25745](https://github.com/erigontech/erigon/pull/25745) | rpc/jsonrpc: return [] instead of null from debug_getModifiedAccountsBy* when no account changed | 2026-11-07 |
-| 3 | [k8up](https://github.com/k8up-io/k8up) | [#1294](https://github.com/k8up-io/k8up/pull/1294) | Buffer backupCommand output so a slow restic start does not drop the exec stream | 2026-11-07 |
-| 4 | [bazel-remote](https://github.com/buchgr/bazel-remote) | [#946](https://github.com/buchgr/bazel-remote/pull/946) | disk: treat a gRPC NotFound from a proxy backend as a cache miss | 2026-11-06 |
-| 5 | [gonka](https://github.com/gonka-ai/gonka) | [#2220](https://github.com/gonka-ai/gonka/pull/2220) | fix(api): reject node ids with characters other than A-Z, a-z, 0-9, - and _ | 2026-11-06 |
-| 6 | [iotex-core](https://github.com/iotexproject/iotex-core) | [#5067](https://github.com/iotexproject/iotex-core/pull/5067) | fix(p2p): stop connectBootNode from blocking when only some bootnodes connect | 2026-11-06 |
-| 7 | [claude-sync](https://github.com/tawanorg/claude-sync) | [#101](https://github.com/tawanorg/claude-sync/pull/101) | fix: ignore drive-letter case when mapping Windows paths | 2026-11-06 |
-| 8 | [prebid-server](https://github.com/prebid/prebid-server) | [#5086](https://github.com/prebid/prebid-server/pull/5086) | Rules Engine Module: Limit number of cached accounts | 2026-11-06 |
-| 9 | [yarr](https://github.com/nkanaev/yarr) | [#349](https://github.com/nkanaev/yarr/pull/349) | parser: detect feed format beyond the first 2 KB | 2026-11-06 |
-| 10 | [copy](https://github.com/otiai10/copy) | [#185](https://github.com/otiai10/copy/pull/185) | fix: refuse to copy a file onto itself instead of truncating it | 2026-11-06 |
-| 11 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [#7476](https://github.com/woodpecker-ci/woodpecker/pull/7476) | Fix docker detached service reported as failed when teardown removes it before wait (incl. Podman 404) | 2026-11-06 |
-| 12 | [steampipe](https://github.com/turbot/steampipe) | [#5084](https://github.com/turbot/steampipe/pull/5084) | Fix plugin manager panic when connection config changes while a plugin is starting | 2026-11-06 |
-| 13 | [cloudflare-kubernetes-gateway](https://github.com/pl4nty/cloudflare-kubernetes-gateway) | [#430](https://github.com/pl4nty/cloudflare-kubernetes-gateway/pull/430) | fix(controller): keep existing Deployment metadata when updating tunnel Deployment | 2026-11-05 |
-| 14 | [opencloud](https://github.com/opencloud-eu/opencloud) | [#3902](https://github.com/opencloud-eu/opencloud/pull/3902) | fix(collaboration): reuse the HTTP client for the WOPI discovery fetch | 2026-11-05 |
-| 15 | [scrutiny](https://github.com/Starosdev/scrutiny) | [#1103](https://github.com/Starosdev/scrutiny/pull/1103) | fix(reports): tell a zero alert threshold apart from no threshold | 2026-11-05 |
-| 16 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2193](https://github.com/chenhg5/cc-connect/pull/2193) | fix(core): add one blank line, not one per event, between quiet-mode text segments | 2026-11-05 |
-| 17 | [lava](https://github.com/lavanet/lava) | [#2344](https://github.com/lavanet/lava/pull/2344) | fix(rpcprovider): make SleepUntilTimeOrConditionReached race-free and stop at the deadline | 2026-11-05 |
-| 18 | [go2rtc](https://github.com/AlexxIT/go2rtc) | [#2644](https://github.com/AlexxIT/go2rtc/pull/2644) | xiaomi/legacy: fix Aqara G2 H264 probe panic and camera without audio | 2026-11-05 |
-| 19 | [WeKnora](https://github.com/Tencent/WeKnora) | [#5097](https://github.com/Tencent/WeKnora/pull/5097) | fix(knowledge): check parser engine before reparse deletes existing content | 2026-11-05 |
-| 20 | [WeKnora](https://github.com/Tencent/WeKnora) | [#5096](https://github.com/Tencent/WeKnora/pull/5096) | fix(faq): add id tiebreaker to FAQ entry pagination order | 2026-11-05 |
-| 21 | [pulumi](https://github.com/pulumi/pulumi) | [#25507](https://github.com/pulumi/pulumi/pull/25507) | Return an error instead of panicking for a parented custom resource with an invalid type token | 2026-11-05 |
-| 22 | [zeroid](https://github.com/highflame-ai/zeroid) | [#475](https://github.com/highflame-ai/zeroid/pull/475) | fix: ignore unknown columns on every scan (WithDiscardUnknownColumns) | 2026-11-05 |
+| 2 | [erigon](https://github.com/erigontech/erigon) | [#25745](https://github.com/erigontech/erigon/pull/25745) | rpc/jsonrpc: return [] instead of null from debug_getModifiedAccountsBy* when no account changed | 2026-11-08 |
+| 3 | [copy](https://github.com/otiai10/copy) | [#185](https://github.com/otiai10/copy/pull/185) | fix: refuse to copy a file onto itself instead of truncating it | 2026-11-08 |
+| 4 | [pulumi](https://github.com/pulumi/pulumi) | [#25507](https://github.com/pulumi/pulumi/pull/25507) | Return an error instead of panicking for a parented custom resource with an invalid type token | 2026-11-08 |
+| 5 | [cc-connect](https://github.com/chenhg5/cc-connect) | [#2193](https://github.com/chenhg5/cc-connect/pull/2193) | fix(core): add one blank line, not one per event, between quiet-mode text segments | 2026-11-05 |
 
 </details>
 
