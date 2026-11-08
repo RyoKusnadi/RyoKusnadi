@@ -27,77 +27,64 @@
 </tr>
 </table>
 
-<br/>
-
 <h3 align="center"><strong>Tech Stack</strong></h3>
 
-<table align="center">
-  <tr>
-    <td align="right"><sub><b>Languages</b></sub></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=go" height="40" title="Go" alt="Go" />
-      <img src="https://skillicons.dev/icons?i=python" height="40" title="Python" alt="Python" />
-      <img src="https://skillicons.dev/icons?i=ts" height="40" title="TypeScript" alt="TypeScript" />
-      <img src="https://skillicons.dev/icons?i=js" height="40" title="JavaScript" alt="JavaScript" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub><b>Backend &amp; Data</b></sub></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=postgres" height="40" title="PostgreSQL" alt="PostgreSQL" />
-      <img src="https://skillicons.dev/icons?i=kafka" height="40" title="Apache Kafka" alt="Apache Kafka" />
-      <img src="https://skillicons.dev/icons?i=redis" height="40" title="Redis" alt="Redis" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub><b>Cloud &amp; DevOps</b></sub></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=docker" height="40" title="Docker" alt="Docker" />
-      <img src="https://skillicons.dev/icons?i=kubernetes" height="40" title="Kubernetes" alt="Kubernetes" />
-      <img src="https://skillicons.dev/icons?i=githubactions" height="40" title="GitHub Actions" alt="GitHub Actions" />
-      <img src="https://skillicons.dev/icons?i=linux" height="40" title="Linux" alt="Linux" />
-      <img src="https://skillicons.dev/icons?i=bash" height="40" title="Bash" alt="Bash" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub><b>Frontend</b></sub></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=react" height="40" title="React" alt="React" />
-      <img src="https://skillicons.dev/icons?i=nextjs" height="40" title="Next.js" alt="Next.js" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="40" title="Tailwind CSS" alt="Tailwind CSS" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><sub><b>Tools</b></sub></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=git" height="40" title="Git" alt="Git" />
-      <img src="https://skillicons.dev/icons?i=gitlab" height="40" title="GitLab" alt="GitLab" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,python,ts,js,postgres,kafka,redis,docker,kubernetes,githubactions,linux,bash,react,nextjs,tailwind,git,gitlab&perline=9" alt="Go, Python, TypeScript, JavaScript, PostgreSQL, Kafka, Redis, Docker, Kubernetes, GitHub Actions, Linux, Bash, React, Next.js, Tailwind CSS, Git, GitLab" />
+</p>
 
 <br>
 
-<h3 align="center"><strong>My Writings</strong></h3>
+<h3 align="center"><strong>Featured Pull Requests</strong></h3>
 
-<!-- MY-WRITINGS:START -->
+<!-- OSS-FEATURED:START -->
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200" title="A Simple Guide to Model Context Protocol for Software Engineers"><img src="https://miro.medium.com/v2/resize:fill:800:420/1*Y9hTk5pliZCSGAJf7qplkA.jpeg" width="100%" alt="A Simple Guide to Model Context Protocol for Software Engineers" /></a>
-<a href="https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200"><b>A Simple Guide to Model Context Protocol for Software Engineers</b></a><br>
-<sub>📅 Jun 27, 2025 · ⏱️ 9 min read</sub><br>
-<sub><code>#prompt-engineering</code> <code>#artificial-intelligence</code> <code>#developer-tools</code></sub>
+<a href="https://github.com/treeverse/lakeFS"><b>lakeFS</b></a> · <a href="https://github.com/treeverse/lakeFS/pull/10590">#10590</a><br>
+Fix prepare GC commits crash when fetching a parent commit fails<br>
+<sub>✅ merged 2026-11-08</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/google/adk-go"><b>adk-go</b></a> · <a href="https://github.com/google/adk-go/pull/2115">#2115</a><br>
+fix(mcptoolset): let a CommandTransport reconnect<br>
+<sub>✅ merged 2026-11-07</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/k3s-io/kine"><b>kine</b></a> · <a href="https://github.com/k3s-io/kine/pull/822">#822</a><br>
+Fix watch forwarder goroutine leak when consumer stops reading<br>
+<sub>✅ merged 2026-11-05</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/dagucloud/dagu"><b>dagu</b></a> · <a href="https://github.com/dagucloud/dagu/pull/3503">#3503</a><br>
+Pin a mail server certificate by SHA-256 with tls_cert_sha256<br>
+<sub>✅ merged 2026-11-04</sub>
 </td>
 </tr>
 </table>
+<!-- OSS-FEATURED:END -->
 
-<p align="center"><a href="https://medium.com/@ryo.kusnadi"><b>Read everything on Medium →</b></a></p>
+<br>
+
+<h3 align="center"><strong>Latest Writing</strong></h3>
+
+<!-- MY-WRITINGS:START -->
+<p align="center">
+<a href="https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200" title="A Simple Guide to Model Context Protocol for Software Engineers"><img src="https://miro.medium.com/v2/resize:fill:800:420/1*Y9hTk5pliZCSGAJf7qplkA.jpeg" width="480" alt="A Simple Guide to Model Context Protocol for Software Engineers" /></a><br>
+<a href="https://levelup.gitconnected.com/a-simple-guide-to-model-context-protocol-for-software-engineers-b48374176200"><b>A Simple Guide to Model Context Protocol for Software Engineers</b></a><br>
+<sub>📅 Jun 27, 2025 · ⏱️ 9 min read</sub><br>
+<sub><code>#prompt-engineering</code> <code>#artificial-intelligence</code> <code>#developer-tools</code></sub>
+</p>
+
+<p align="center"><a href="https://medium.com/@ryo.kusnadi"><b>Read more on Medium →</b></a></p>
 <!-- MY-WRITINGS:END -->
 
 <br>
 
-<h3 align="center"><strong>Open Source Contribution</strong></h3>
+<h3 align="center"><strong>All Contributions</strong></h3>
+
 <!-- OSS-CONTRIBUTIONS:START -->
 <details>
 <summary><b>Merged PRs (Last 1 Year)</b> (54)</summary>
@@ -188,7 +175,7 @@
 
 <br>
 
-<h3 align="center">Connect With Me</h3>
+<h3 align="center"><strong>Connect With Me</strong></h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/ryo-kusnadi/" target="_blank" title="Connect with me on LinkedIn"><img src="./assets/connect/linkedin.svg" height="44" alt="LinkedIn" /></a>
   <a href="https://medium.com/@ryo.kusnadi" target="_blank" title="Read my articles on Medium"><img src="./assets/connect/medium.svg" height="44" alt="Medium" /></a>

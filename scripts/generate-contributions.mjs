@@ -92,6 +92,40 @@ function renderTable(prLabel, prs) {
 ${rows.join("\n")}`;
 }
 
+// Hand-picked merged PRs shown as cards at the top ("owner/repo#number").
+const FEATURED_PRS = [
+  "treeverse/lakeFS#10590",
+  "google/adk-go#2115",
+  "k3s-io/kine#822",
+  "dagucloud/dagu#3503",
+];
+const FEATURED_START = "<!-- OSS-FEATURED:START -->";
+const FEATURED_END = "<!-- OSS-FEATURED:END -->";
+
+function replaceBetween(text, startMarker, endMarker, body) {
+  const start = text.indexOf(startMarker);
+  const end = text.indexOf(endMarker);
+  if (start === -1 || end === -1) throw new Error(`Markers ${startMarker} not found in README.md`);
+  return `${text.slice(0, start + startMarker.length)}\n${body}\n${text.slice(end)}`;
+}
+
+function renderFeatured(prs) {
+  const cards = FEATURED_PRS.map((key) => prs.find((p) => p.merged && `${p.repo}#${p.number}` === key))
+    .filter(Boolean)
+    .map((pr) => {
+      const name = pr.repo.split("/")[1];
+      return `<td width="50%" valign="top">
+<a href="https://github.com/${pr.repo}"><b>${name}</b></a> · <a href="${pr.url}">#${pr.number}</a><br>
+${pr.description.replaceAll("<", "&lt;")}<br>
+<sub>✅ merged ${pr.date}</sub>
+</td>`;
+    });
+  if (!cards.length) return "";
+  const rows = [];
+  for (let i = 0; i < cards.length; i += 2) rows.push(`<tr>\n${cards.slice(i, i + 2).join("\n")}\n</tr>`);
+  return `<table>\n${rows.join("\n")}\n</table>`;
+}
+
 async function main() {
   const prs = await findContributedPRs();
 
@@ -121,18 +155,8 @@ async function main() {
     : `<p align="center"><sub>No pull requests to external repositories yet.</sub></p>`;
 
   const readme = fs.readFileSync(README_PATH, "utf8");
-  const startIdx = readme.indexOf(START_MARKER);
-  const endIdx = readme.indexOf(END_MARKER);
-  if (startIdx === -1 || endIdx === -1) {
-    throw new Error(`Markers not found in README.md`);
-  }
-
-  const updated =
-    readme.slice(0, startIdx + START_MARKER.length) +
-    "\n" +
-    table +
-    "\n" +
-    readme.slice(endIdx);
+  const withTables = replaceBetween(readme, START_MARKER, END_MARKER, table);
+  const updated = replaceBetween(withTables, FEATURED_START, FEATURED_END, renderFeatured(prs));
 
   // Keep the merged-PR count in the intro in sync with the table.
   const withCount = updated.replace(

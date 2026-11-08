@@ -88,25 +88,18 @@ function renderCard(post) {
   const title = escHtml(post.title);
   const tags = post.tags.length ? `<br>\n<sub>${post.tags.map((t) => `<code>#${escHtml(t)}</code>`).join(" ")}</sub>` : "";
   const cover = post.cover
-    ? `<a href="${post.link}" title="${title}"><img src="${post.cover}" width="100%" alt="${title}" /></a>\n`
+    ? `<a href="${post.link}" title="${title}"><img src="${post.cover}" width="480" alt="${title}" /></a><br>\n`
     : "";
-  return `<td width="50%" valign="top">
+  return `<p align="center">
 ${cover}<a href="${post.link}"><b>${title}</b></a><br>
 <sub>📅 ${fmtDate(post.date)} · ⏱️ ${post.minutes} min read</sub>${tags}
-</td>`;
+</p>`;
 }
 
 function renderSection({ featured }) {
-  const rows = [];
-  for (let i = 0; i < featured.length; i += 2) {
-    rows.push(`<tr>\n${featured.slice(i, i + 2).map(renderCard).join("\n")}\n</tr>`);
-  }
+  return `${featured.map(renderCard).join("\n\n")}
 
-  return `<table>
-${rows.join("\n")}
-</table>
-
-<p align="center"><a href="${PROFILE_URL}"><b>Read everything on Medium →</b></a></p>`;
+<p align="center"><a href="${PROFILE_URL}"><b>Read more on Medium →</b></a></p>`;
 }
 
 async function main() {
