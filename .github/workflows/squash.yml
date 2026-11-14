@@ -1,0 +1,28 @@
+name: Squash History
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # daily at 01:00 UTC, after the midnight Trophy / Writings runs
+  workflow_dispatch:
+
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+
+      - name: Squash all history into one commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          OLD_SHA=$(git rev-parse HEAD)
+          git checkout --orphan squashed
+          git add -A
+          git commit -m "Initial commit"
+          # Only overwrite master if nobody pushed since we checked it out.
+          git push --force-with-lease=master:"$OLD_SHA" origin squashed:master

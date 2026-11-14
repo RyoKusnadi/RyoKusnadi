@@ -1,0 +1,40 @@
+name: Contributions
+
+on:
+  schedule:
+    - cron: "0 */3 * * *" # every 3 hours (oss_pr.py also triggers it right after a PR opens)
+  workflow_dispatch:
+  push:
+    branches: [master]
+
+jobs:
+  contributions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Generate and commit contributions table
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Other workflows (and the daily squash force-push) may update master
+          # while this job runs, so never rebase: reset to the latest master,
+          # regenerate, and retry if another job wins the push race.
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth=1 origin master
+            git reset --hard FETCH_HEAD
+            node scripts/generate-contributions.mjs
+            git add README.md
+            if git diff --staged --quiet; then echo "No changes"; exit 0; fi
+            git commit -m "Update open source contributions table [skip ci]"
+            if git push origin HEAD:master; then exit 0; fi
+            echo "Push rejected (attempt $attempt), retrying..."
+            sleep $((RANDOM % 10 + 5))
+          done
+          exit 1
